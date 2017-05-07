@@ -1,0 +1,77 @@
+CRA,Name,Institution,City,Country,Email address,Location,Latitude,Longitude
+AFV,David Atkinson, University of Victoria,"Victoria, BC",Canada,datkinso@uvic.ca,"Victoria, BC, Canada",,
+AFV,Francesco Tampieri," Institute of Atmospheric Science and Climate, Italian National Research Council",Bologna,Italy,f.tampieri@isac.cnr.it,"Bologna, Italy",44.494887,11.3426163
+AFV,Jinping Zhao, Ocean University of China,Qingdao,China,jpzhao@ouc.edu.cn,"Qingdao, China",36.067108,120.382609
+AFV,Ka-Kit Tung, University of Washington,"Seattle, WA",USA,ktung@uw.edu,"Seattle, WA, USA",47.6062095,-122.3320708
+AFV,Peiqing Guo, Ocean University of China,Qingdao,China,guopeiqing@ouc.edu.cn,"Qingdao, China",36.067108,120.382609
+AFV,William Perrie, Bedford Institute of Oceanography,"Dartmouth, NS",Canada,william.perrie@dfo-mpo.gc.ca,"Dartmouth, NS, Canada",44.6652059,-63.5677427
+AFV,Xianyao Chen, Ocean University of China,Qingdao,China,chenxy@ouc.edu.cn,"Qingdao, China",36.067108,120.382609
+ARCTIC-ERA,Boris Porfiriev," Institute of Economic Forecasting, Russian Academy of Sciences",Moscow,Russia,b_porfiriev@mail.ru,"Moscow, Russia",55.755826,37.6173
+ARCTIC-ERA,Dmitry Streletskiy, George Washington University,"Washington, DC",USA,strelets@gwu.edu,"Washington, DC, USA",38.9071923,-77.0368707
+ARCTIC-ERA,Olga Zolina, Laboratoire de Glaciologie et Géophysique de l'Environnement,Saint-Martin-d'Hères,France,olga.zolina@lgge.obs.ujf-grenoble.fr,"Saint-Martin-d'Hères, France",,
+ARCTIC-ERA,Pavel Groisman, Hydrology Science and Services,"Asheville, NC",USA,groismanp@bellsouth.net,"Asheville, NC, USA",35.5950581,-82.5514869
+ARCTIC-ERA,Sergey Gulev," P.P. Shirshov Institute of Oceanology, Russian Academy of Sciences",Moscow,Russia,gul@sail.msk.ru,"Moscow, Russia",55.755826,37.6173
+ASUS,Aileen Espiritu," The Barents Institute, University of Tromsø",Kirkenes,Norway,aileen.a.espiritu@uit.no,"Kirkenes, Norway",69.7269192,30.0450432
+ASUS,Andrey Petrov, University of Northern Iowa,"Cedar Falls, IA",USA,andrey.petrov@uni.edu,"Cedar Falls, IA, USA",42.5348993,-92.4453161
+ASUS,Chris Southcott, Lakehead University,"Thunder Bay, ON",Canada,chris.southcott@lakeheadu.ca,"Thunder Bay, ON, Canada",48.3808951,-89.2476823
+ASUS,Joan Nymand Larsen," Stefansson Arctic Institute, University of Akureyri",Akureyri,Iceland,jnl@unak.is,"Akureyri, Iceland",65.6884921,-18.1261693
+ASUS,Klaus Georg Hansen, Ilisimatusarfik,Nuuk,Greenland,kgh@uni.gl,"Nuuk, Greenland",64.1814099,-51.694138
+ASUS,Rasmus Ole Rasmussen, Nordregio,Stockholm,Sweden,rasmus.ole.rasmussen@nordregio.se,"Stockholm, Sweden",59.3293235,18.0685808
+ASUS,Tatiana Vlasova," Institute of Geography, Russian Academy of Sciences",Moscow,Russia,tatiana.vlsv@gmail.com,"Moscow, Russia",55.755826,37.6173
+BAAMRGP,Brooks Kaiser, University of Southern Denmark,Esbjerg,Denmark,baka@sam.sdu.dk,"Esbjerg, Denmark",55.476466,8.459405
+BAAMRGP,Jan Sundet, Institute of Marine Research,Tromsø,Norway,jan.h.sundet@imr.no,"Tromsø, Norway",69.6492047,18.9553238
+BAAMRGP,Linda Fernandez, Virginia Commonwealth University,"Richmond, VA",USA,lmfernandez@vcu.edu,"Richmond, VA, USA",37.5407246,-77.4360481
+BAAMRGP,Niels Vestergaard, University of Southern Denmark,Esbjerg,Denmark,nv@sam.sdu.dk,"Esbjerg, Denmark",55.476466,8.459405
+CONNECT,Christopher Monz, Utah State University,"Logan, UT",USA,chris.monz@usu.edu,"Logan, UT, USA",41.7369803,-111.8338359
+CONNECT,Dorothée Ehrich, University of Tromsø,Tromsø,Norway,dorothee.ehrich@uit.no,"Tromsø, Norway",69.6492047,18.9553238
+CONNECT,Douglas Clark, University of Saskatchewan,"Saskatoon, SK",Canada,d.clark@usask.ca,"Saskatoon, SK, Canada",52.1332144,-106.6700458
+CONNECT,Else Grete Broderstad, University of Tromsø,Tromsø,Norway,else.g.broderstad@uit.no,"Tromsø, Norway",69.6492047,18.9553238
+CONNECT,Jennifer Schmidt," ISER, University of Alaska Anchorage","Anchorage, AK",USA,jischmidt0@gmail.com,"Anchorage, AK, USA",61.2180556,-149.9002778
+CONNECT,Konstantin Klokov," EthnoExpert, LLC",Saint Petersburg,Russia,No known e-mail,"Saint Petersburg, Russia",59.9342802,30.3350986
+CONNECT,Nigel Yoccoz, University of Tromsø,Tromsø,Norway,nigel.yoccoz@uit.no,"Tromsø, Norway",69.6492047,18.9553238
+CONNECT,Per Fauchald, Norwegian Institute for Nature Research,Trondheim,Norway,per.fauchald@nina.no,"Trondheim, Norway",63.4305149,10.3950528
+CONNECT,Vera Hausner, University of Tromsø,Tromsø,Norway,vera.hausner@uit.no,"Tromsø, Norway",69.6492047,18.9553238
+COPERA,Atsuko Sugimoto, Hokkaido University,Sapporo,Japan,sugimoto@star.dti2.ne.jp,"Sapporo, Japan",43.0620958,141.3543763
+COPERA,Kenji Yoshikawa, University of Alaska-Fairbanks,"Fairbanks, AK",USA,kyoshikawa@alaska.edu,"Fairbanks, AK, USA",64.8377778,-147.7163889
+COPERA,Mikhael Prisyazhny, North-Eastern Federal University,Yakutsk,Russia,wirt@mail.ru,"Yakutsk, Russia",62.0354523,129.6754745
+COPERA,Rikie Suzuki, Japan Agency for Marine-Earth Science and Technology,Yokohama,Japan,rikie@jamstec.go.jp,"Yokohama, Japan",35.4437078,139.6380256
+COPERA,Takeshi Ohta, Nagoya University,Nagoya,Japan,takeshi@agr.nagoya-u.ac.jp,"Nagoya, Japan",35.1814464,136.906398
+HIARC,Anna Kurchatova," Institute of the Earth's Cryosphere, Russian Academy of Sciences Siberian Branch",Tyumen,Russia,kanni@mail.ru,"Tyumen, Russia",57.1612975,65.5250172
+HIARC,Igor Esau,Nansen Environmental and Remote Sensing Centre,Bergen,Norway,igore@nersc.no,"Bergen, Norway",60.3912628,5.3220544
+HIARC,Marlene Laurelle," Institute for European, Russian, and Eurasian Studies, George Washington University","Washington, DC",USA,laruelle@email.gwu.edu,"Washington, DC, USA",38.9071923,-77.0368707
+HIARC,Martin Miles," Institute for Arctic and Alpine Research, University of Colorado","Boulder, CO",USA,martin.miles@colorado.edu,"Boulder, CO, USA",40.0149856,-105.2705456
+Pan-Arctic Options,Alexander Vylegzhanin, MGIMO University,Moscow,Russia,sopspravo@mail.ru,"Moscow, Russia",55.755826,37.6173
+Pan-Arctic Options,Ben Halpern, University of California-Santa Barbara,"Santa Barbara, CA",USA,halpern@bren.ucsb.edu,"Santa Barbara, CA, USA",34.4208305,-119.6981901
+Pan-Arctic Options,Christine Provost," Laboratoire d'Océanographie et du Climat, Université Pierre et Marie Curie",Paris,France,cp@locean-ipsl.upmc.fr,"Paris, France",48.856614,2.3522219
+Pan-Arctic Options,Fraser Taylor, Carleton University,Ottawa,Canada,fraser.taylor@carleton.ca,"Ottawa, Canada",45.4215296,-75.6971931
+Pan-Arctic Options,Jan-Gunnar Winther, Norwegian Polar Institute,Tromsø,Norway,winther@npolar.no,"Tromsø, Norway",69.6492047,18.9553238
+Pan-Arctic Options,Jean-Claude Gascard," Laboratoire d'Océanographie et du Climat, Université Pierre et Marie Curie",Paris,France,jga@locean-ipsl.upmc.fr,"Paris, France",48.856614,2.3522219
+Pan-Arctic Options,Kai Sun, Ocean University of China,Qingdao,China,oucsunkai@gmail.com,"Qingdao, China",36.067108,120.382609
+Pan-Arctic Options,Lawson Brigham, University of Alaska-Fairbanks,"Fairbanks, AK",USA,lwb48@aol.com,"Fairbanks, AK, USA",64.8377778,-147.7163889
+Pan-Arctic Options,Oran Young, University of California-Santa Barbara,"Santa Barbara, CA",USA,young@bren.ucsb.edu,"Santa Barbara, CA, USA",34.4208305,-119.6981901
+Pan-Arctic Options,Paul Berkman, University of California-Santa Barbara,"Santa Barbara, CA",USA,paul.berkman@tufts.edu,"Santa Barbara, CA, USA",34.4208305,-119.6981901
+RACArctic,Alan Haynie," Resource Ecology and Fisheries Management Division, Alaska Fisheries Science Center","Seattle, WA",USA,alan.haynie@noaa.gov,"Seattle, WA, USA",47.6062095,-122.3320708
+RACArctic,Alf Håkon Hoel, Institute of Marine Research,Bergen,Norway,alf.hakon.hoel@imr.no,"Bergen, Norway",60.3912628,5.3220544
+RACArctic,Arne Eide, University of Tromsø,Tromsø,Norway,arne.eide@uit.no,"Tromsø, Norway",69.6492047,18.9553238
+RACArctic,Benjamin Planque, Institute of Marine Research,Tromsø,Norway,benjamin.planque@imr.no,"Tromsø, Norway",69.6492047,18.9553238
+RACArctic,Franz Mueter, University of Alaska-Fairbanks,"Fairbanks, AK",USA,fmueter@alaska.edu,"Fairbanks, AK, USA",64.8377778,-147.7163889
+RACArctic,George Hunt, University of Washington,"Seattle, WA",USA,geohunt2@uw.edu,"Seattle, WA, USA",47.6062095,-122.3320708
+RACArctic,Henry Huntington, Huntington Consulting,"Eagle River, AK",USA,hph@alaska.net,"Eagle River, AK, USA",61.3293186,-149.5680499
+RACArctic,Hiroki Takakura, Tohoku University,Sendai,Japan,hrk@m.tohoku.ac.jp,"Sendai, Japan",38.268215,140.8693558
+RACArctic,Jan Erik Stiansen, Institute of Marine Research,Bergen,Norway,jan.erik.stiansen@imr.no,"Bergen, Norway",60.3912628,5.3220544
+RACArctic,Kenneth Drinkwater, Institute of Marine Research,Bergen,Norway,ken.drinkwater@imr.no,"Bergen, Norway",60.3912628,5.3220544
+RACArctic,Makino Mitsutaku, Fisheries Research Agency,Yokohama,Japan,mmakino@affrc.go.jp,"Yokohama, Japan",35.4437078,139.6380256
+RACArctic,Melissa Chierici, Institute of Marine Research,Bergen,Norway,melissa.chierici@imr.no,"Bergen, Norway",60.3912628,5.3220544
+RACArctic,Mike Sigler," Ted Stevens Marine Research Institute, Alaska Fisheries Science Center","Juneau, AK",USA,mike.sigler@noaa.gov,"Juneau, AK, USA",58.3019444,-134.4197222
+RACArctic,Naomi Harada, Japan Agency for Marine Earth-Science and Technology,Yokosuka,Japan,haradan@jamstec.go.jp,"Yokosuka, Japan",35.2813412,139.6722005
+RACArctic,Randi Ingvaldsen, Institute of Marine Research,Bergen,Norway,randi.ingvaldsen@imr.no,"Bergen, Norway",60.3912628,5.3220544
+RACArctic,Sei-Ichi Saitoh, Hokkaido University,Hakodate,Japan,ssaitoh@salmon.fish.hokudai.ac.jp,"Hakodate, Japan",41.7687933,140.7288103
+RACArctic,Takashi Kikuchi, Japan Agency for Marine Earth-Science and Technology,Yokosuka,Japan,takashik@jamstec.go.jp,"Yokosuka, Japan",35.2813412,139.6722005
+RACArctic,Toru Hirawake, Hokkaido University,Hakodate,Japan,hirawake@salmon.fish.hokudai.ac.jp,"Hakodate, Japan",41.7687933,140.7288103
+RACArctic,Yutaka Watanuki, Hokkaido University,Hakodate,Japan,ywata@fish.hokudai.ac.jp,"Hakodate, Japan",41.7687933,140.7288103
+TAMANI,Ana Rodrigues, Centre d'Ecologie Fonctionnelle et Evolutive,Montpellier,France,ana.rodrigues@cefe.cnrs.fr,"Montpellier, France",43.610769,3.876716
+TAMANI,Brenda Parlee, University of Alberta,"Edmonton, AB",Canada,brenda.parlee@ualberta.ca,"Edmonton, AB, Canada",53.544389,-113.4909267
+TAMANI,Chris Furgal, Trent University,"Peterborough, ON",Canada,chrisfurgal@trentu.ca,"Peterborough, ON, Canada",44.309058,-78.319747
+TAMANI,David Gremillet, Centre d'Ecologie Fonctionnelle et Evolutive,Montpellier,France,david.gremillet@cefe.cnrs.fr,"Montpellier, France",43.610769,3.876716
+TAMANI,Dominique Berteaux, Université du Québec à Rimouski,"Rimouski, QB",Canada,dominique_berteaux@uqar.ca,"Rimouski, QB, Canada",48.4389803,-68.5349704
+TAMANI,Nigel Yoccoz, University of Tromsø,Tromsø,Norway,nigel.yoccoz@uit.no,"Tromsø, Norway",69.6492047,18.9553238

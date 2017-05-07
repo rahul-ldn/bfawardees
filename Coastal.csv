@@ -1,0 +1,86 @@
+CRA,Name,Institution,City,Country,Email address,Location,Latitude,Longitude
+ARTISTICC,Jean-Paul Vanderlinden, Université de Versailles Saint-Quentin-en-Yvelines,Guyancourt,France,jean-paul.vanderlinden@uvsq.fr,"Guyancourt, France",48.762895,2.075323
+ARTISTICC,Kaleekal Thomas Thomson, Cochin University of Science and Technology,Kochi,India,thomsonkt@rediffmail.com,"Kochi, India",9.9312328,76.2673041
+ARTISTICC,Omer Chouinard, Université de Moncton*,Moncton,Canada,omer.chouinard@umoncton.ca,"Moncton, Canada",46.0878165,-64.7782313
+ARTISTICC,Inga Vladimirovna, North-Eastern Federal University,Yakutsk,Russia,fei.fibd@mail.ru,"Yakutsk, Russia",62.0354523,129.6754745
+ARTISTICC,Matthew Berman, University of Alaska Anchorage,"Anchorage, AK",USA,matthew.berman@uaa.alaska.edu,"Anchorage, AK, USA",61.2180556,-149.9002778
+ARTISTICC,Olivier Raguenneau, Université de Bretagne Occidentale,Plouzane,France,olivier.ragueneau@univ-brest.fr,"Plouzane, France",48.381438,-4.620404
+ARTISTICC,Alioune Kane, Université Cheikh Anta Diop*,Dakar,Senegal,alioune.kane@ucad.edu.sn,"Dakar, Senegal",14.7645042,-17.3660286
+METROPOLE,Frank Muller Karger, University of South Florida,"St. Petersburg, FL",USA,carib@marine.usf.edu,"St. Petersburg, FL, USA",27.7518284,-82.6267345
+METROPOLE,Jose Marengo Orsini,Earth System Science Center /National Institute for Space Research,Cachoeira Paulista,Brazil,jose.marengo@inpe.br,"Cachoeira Paulista, Brazil",-22.6650996,-45.0116583
+METROPOLE,Sin Chin,National Institute for Space Research,,,,", ",,
+METROPOLE,Luiz Aragao,National Institute for Space Research,,,,", ",,
+METROPOLE,Mark Pelling,King's College London,London,United Kingdom,mark.pelling@kcl.ac.uk,"London, United Kingdom",51.5073509,-0.1277583
+METROPOLE,Sue Grimmond,King's College London,London,United Kingdom,,"London, United Kingdom",51.5073509,-0.1277583
+METROPOLE,Sam Merrill, University of Southern Maine Edmund S. Muskie School of Public Service,"Portland, ME",USA,smerrill@usm.maine.edu,"Portland, ME, USA",43.661471,-70.2553259
+METROPOLE,Luci Hidalgo Nunes, Institute of Geosciences – State University of Campinas,,,,", ",,
+METROPOLE,Catherine Reynolds, University of South Florida,,,,", ",,
+METROPOLE,Kalanithy Vairavamoorthy,University of South Florida,,,,", ",,
+METROPOLE,Jack Kartez, Catalysis Adaptation Partners,,,,", ",,
+METROPOLE,Jonathan Lockman,Catalysis Adaptation Partners,,,,", ",,
+DELTAS,Efi Foufoula-Georgiou,University of Minnesota,"Minneapolis, MN",USA,efi@umn.edu,"Minneapolis, MN, USA",44.977753,-93.2650108
+DELTAS,Kazi Matin Ahmed, University of Dhaka*,Dhaka,Bangladesh,kmahmed@du.ac.bd,"Dhaka, Bangladesh",23.810332,90.4125181
+DELTAS,Edward Anthony,CEREGE - European Centre for Research and Teaching in Environmental Geosciences,Aix-en-Provence,France,anthony@cerege.fr,"Aix-en-Provence, France",43.529742,5.447427
+DELTAS,Eduardo Brondizio, Indiana University,"Bloomington, IN",USA,ebrondiz@indiana.edu,"Bloomington, IN, USA",39.165325,-86.5263857
+DELTAS,Marcel Marchand, Deltares*,Delft,The Netherlands,marcel.marchand@deltares.nl,"Delft, The Netherlands",52.0115769,4.3570677
+DELTAS,Claudia Kuenzer,"Earth Observation Center, German Aerospace Center (DLR)",Wessling,Germany,claudia.kuenzer@dlr.de,"Wessling, Germany",48.0745018,11.2483111
+DELTAS,Marc Goichot, World Wide Fund for Nature*,Hanoi,Vietnam,marc.goichot@wwfgreatermekong.org,"Hanoi, Vietnam",21.0277644,105.8341598
+DELTAS,Steven Goodbred, Vanderbilt University,"Nashville, TN",USA,steven.goodbred@vanderbilt.edu,"Nashville, TN, USA",36.1626638,-86.7816016
+DELTAS,Ian James Harrison, International Union for the Conservation of Nature,"Arlington, VA",USA,iharrison@conservation.org,"Arlington, VA, USA",38.8799697,-77.1067698
+DELTAS,Jonathan Michael Hutton, United Nations Environment Programme,Cambridge,United Kingdom,jon.hutton@unep-wcmc.org,"Cambridge, United Kingdom",52.205337,0.121817
+DELTAS,Zoe Matthews, University of Southampton,Southampton,United Kingdom,z.matthews@soton.ac.uk,"Southampton, United Kingdom",50.9097004,-1.4043509
+DELTAS,Van Lap Nguyen, Vietnam Academy of Science and Technology*,Ho Chi Minh City,Vietnam,nvlap@vast-hcm.ac.vn,"Ho Chi Minh City, Vietnam",10.8230989,106.6296638
+DELTAS,Irina Overeem, University of Colorado,"Boulder, CO",USA,irina.overeem@colorado.edu,"Boulder, CO, USA",40.0149856,-105.2705456
+DELTAS,Ramesh Ramachandran, Anna University,Chennai,India,rramesh_au@yahoo.com,"Chennai, India",13.0826802,80.2707184
+DELTAS,Fabrice Renaud, United Nations University,Bonn,Germany,renaud@ehs.unu.edu,"Bonn, Germany",50.73743,7.0982068
+DELTAS,Yoshiki Saito, Geological Survey of Japan,Tsukuba,Japan,yoshiki.saito@aist.go.jp,"Tsukuba, Japan",36.0834857,140.0766423
+DELTAS,Md. Munsur Rahman, Bangladesh University of Engineering and Technology*,Dhaka,Bangladesh,mmrahman@iwfm.buet.ac.bd,"Dhaka, Bangladesh",23.810332,90.4125181
+DELTAS,Alice Newton, Norwegian Institute for Air Research*,Kjeller,Norway,an@nilu.no,"Kjeller, Norway",59.9749998,11.0475037
+DELTAS,Gwyn Lintern, Natural Resources Canada*,Sidney,Canada,glintern@nrcan.gc.ca,"Sidney, Canada",48.6502411,-123.399005
+DELTAS,Philippe Van Cappellen, University of Waterloo*,Waterloo,Canada,pvc@uwaterloo.ca,"Waterloo, Canada",43.4642578,-80.5204096
+DELTAS,Shu Gao, Nanjing University*,Nanjing,China,shugao@nju.edu.cn,"Nanjing, China",32.060255,118.796877
+DELTAS,Stefan Dech, University of Wuerzburg,,,,", ",,
+DELTAS,Charles Vorosmarty, City College of New York,,,,", ",,
+DELTAS,Sandra Costa, University of Vale do Paraíba,,,,", ",,
+DELTAS,Rob Nicholls, University of Southampton,,,,", ",,
+DELTAS,Angela Baschieri, University of Southampton,,,,", ",,
+DELTAS,John Dearing, University of Southampton,,,,", ",,
+BanD-AID,C. K. Shum, The Ohio State University,"Columbus, OH",USA,ckshum@osu.edu,"Columbus, OH, USA",39.9611755,-82.9987942
+BanD-AID,Jurgen Kusche, University of Bonn,Bonn,Germany,kusche@uni-bonn.de,"Bonn, Germany",50.73743,7.0982068
+BanD-AID,Boris Braun, University of Cologne,Cologne,Germany,boris.braun@uni-koeln.de,"Cologne, Germany",50.937531,6.9602786
+BanD-AID,Fabrice Papa,LEGOS,Toulouse,France,fabrice.papa@ird.fr,"Toulouse, France",43.604652,1.444209
+BanD-AID,Stephane Calmant,LEGOS,Toulouse,France,stephane.calmant@ird.fr,"Toulouse, France",43.604652,1.444209
+BanD-AID,J. Craig Jenkins, The Ohio State University,"Columbus, OH",USA,jekins.12@osu.edu,"Columbus, OH, USA",39.9611755,-82.9987942
+BanD-AID,Faisal Hossain, Tennessee Technological University,"Cookeville, TN",USA,fhossain@tntech.edu,"Cookeville, TN, USA",36.162839,-85.5016423
+BanD-AID,Zahirul Khan, Institute of Water Modelling*,Mohakhali,Bangladesh,zhk@iwmbd.org,"Mohakhali, Bangladesh",23.7776282,90.4054498
+BanD-AID,Michael Kuhn, Curtin University*,Perth,Australia,m.kuhn@curtin.edu.au,"Perth, Australia",-31.9505269,115.8604572
+BanD-AID,Raquib Ahmed, University of Rajshahi*,Rajshahi,Bangladesh,raquib_geog@ru.ac.bd,"Rajshahi, Bangladesh",24.3635886,88.6241351
+GULLS,Kevern Laurence Cochrane, Rhodes University,Grahamstown,South Africa,k.cochrane@ru.ac.za,"Grahamstown, South Africa",-33.3106292,26.5255946
+GULLS,Alistair Hobday, CSIRO Marine and Atmospheric Research,Hobart,Australia,alistair.hobday@csiro.au,"Hobart, Australia",-42.8821377,147.3271949
+GULLS,Gonuguntla Syda Rao, Central Marine Fisheries Research Institute,Cochin,India,director@cmfri.org.in,"Cochin, India",9.9312328,76.2673041
+GULLS,Maria Gasalla, University of São Paulo,São Paulo,Brazil,mgasalla@usp.br,"São Paulo, Brazil",-23.5505199,-46.6333094
+GULLS,Ekaterina Popova, National Oceanography Centre,Southampton,United Kingdom,e.popova@noc.ac.uk,"Southampton, United Kingdom",50.9097004,-1.4043509
+GULLS,Adina Paytan, University of California Santa Cruz,"Santa Cruz, CA",USA,apaytan@ucsc.edu,"Santa Cruz, CA, USA",36.9741171,-122.0307963
+GULLS,Hajanirina Razafindrainibe, Service D’Appui La Gestion De L’Environnement*,Antananarivo,Madagascar,hajanirina.sage@blueline.mg,"Antananarivo, Madagascar",-18.8791902,47.5079055
+GULLS,Candida Savage, University of Otago*,Dunedin,New Zealand,candida.sauvage@otago.ac.nz,"Dunedin, New Zealand",-45.8787605,170.5027976
+GULLS,Philip Dearden,University of Victoria,Victoria,Canada,pdearden@office.geof.uvic.ca,"Victoria, Canada",48.4284207,-123.3656444
+GULLS,Grant Murray, University of Victoria*,,,,", ",,
+GULLS,Almeida Tomas Guissamulo, Eduardo Mondlane University*,Maputo,Mozambique,almedia.guissamulo@hotmail.com,"Maputo, Mozambique",-25.891968,32.6051351
+GULLS,Paul Shaw, Aberystwyth University*,,,,", ",,
+GULLS,Chris Hill, University of Southampton,,,,", ",,
+GULLS,Craig Hutton, University of Southampton,,,,", ",,
+MAGIC,Christo Fabricius, Nelson Mandela Metropolitan University,George,South Africa,christo.fabricius@nmmu.ac.za,"George, South Africa",-33.9881281,22.4529878
+MAGIC,Olivier Barreteau, IRSTEA,Montpellier,France,olivier.barreteau@irstea.fr,"Montpellier, France",43.610769,3.876716
+MAGIC,John M. Anderies, University of Exeter,Penryn,United Kingdom,katrina.brown@exeter.ac.uk,"Penryn, United Kingdom",50.169173,-5.107088
+MAGIC,, Arizona State University,"Tempe, AZ",USA,m.anderies@asu.edu,"Tempe, AZ, USA",33.4255104,-111.9400054
+MAGIC,Francois Bousquet, CIRAD,Montpellier,France,francois.bousquet@cirad.fr,"Montpellier, France",43.610769,3.876716
+MAGIC,Raphael Mathevet, Centre National de la Recherche Scientifique,,,,", ",,
+TRUC,Mark Pelling, King’s College,London,United Kingdom,mark.pelling@kcl.ac.uk,"London, United Kingdom",51.5073509,-0.1277583
+TRUC,Joern Birkmann, United Nations University,Bonn,Germany,birkmann@ehs.unu.edu,"Bonn, Germany",50.73743,7.0982068
+TRUC,William Solecki, CUNY Institute for Sustainable Cities,"New York, NY",USA,wsolecki@hunter.cuny.edu,"New York, NY, USA",40.7127837,-74.0059413
+TRUC,Ramesh Ramachandran, Anna University,Chennai,India,rramesh_au@yahoo.com,"Chennai, India",13.0826802,80.2707184
+TRUC,Masumi Yamamuro, The University of Tokyo,Kashiwa,Japana,yamamuro@k.u-tokyo.ac.jp,"Kashiwa, Japana",35.8676124,139.9758505
+TRUC,Alice Newton, Norsk institutt for luftforskning*,Kjeller,Norway,an@nilu.no,"Kjeller, Norway",59.9749998,11.0475037
+TRUC,Sue Grimmond, King’s College London,,,,", ",,
+TRUC,Julius Agboola, Lagos State University*,,,,", ",,
+TRUC,Zhongyuan Chen, State Key laboratory of Estuarine and Coastal Institute*,,,,", ",,

@@ -1,0 +1,57 @@
+CRA,Name,Institution,City,Country,Email address,Location,Latitude,Longitude
+DrIVER,Kerstin Stahl, Albert-Ludwigs-Universität Freiburg,Freiburg,Germany,kerstin.stahl@hydrology.uni-freiburg.de,"Freiburg, Germany",47.9990077,7.8421043
+DrIVER,Cody Knutson, University of Nebraska-Lincoln,"Lincoln, NE",USA,cknutson1@unl.edu,"Lincoln, NE, USA",40.8257625,-96.6851982
+DrIVER,Mark Svoboda, University of Nebraska-Lincoln,"Lincoln, NE",USA,msvoboda2@unl.edu,"Lincoln, NE, USA",40.8257625,-96.6851982
+DrIVER,Jamie Hannaford, Centre for Ecology and Hydrology,Wallingford,United Kingdom,jaha@ceh.ac.uk,"Wallingford, United Kingdom",51.5974177,-1.1335613
+DrIVER,Kevin Collins, The Open University,Milton Keynes,United Kingdom,k.b.collins@open.ac.uk,"Milton Keynes, United Kingdom",52.0406224,-0.7594171
+DrIVER,Ian Clifford Overton, Commonwealth Scientific and Industrial Research Organisation,, Australia,,",  Australia",-25.274398,133.775136
+DrIVER,Neville David Crossman, Commonwealth Scientific and Industrial Research Organisation,, Australia,,",  Australia",-25.274398,133.775136
+DrIVER,Matthew John Colloff, Commonwealth Scientific and Industrial Research Organisation,, Australia,,",  Australia",-25.274398,133.775136
+FuturAgua,Tim McDaniels, University of British Columbia,Vancouver,Canada,timmcd@exchange.ubc.ca,"Vancouver, Canada",49.2827291,-123.1207375
+FuturAgua,Raffaele Vignola, Tropical Agricultural Research and Higher Education Center (CATIE),Cartago,Costa Rica,rvignola@catie.ac.cr,"Cartago, Costa Rica",9.8638091,-83.9161935
+FuturAgua,Grégoire Leclerc, Agriculture Research and Development (CIRAD),Montpellier,France,gregoire.leclerc@cirad.fr,"Montpellier, France",43.610769,3.876716
+FuturAgua,Douw Gerbrand Steyn, University of British Columbia,Vancouver,Canada,dsteyn@eos.ubc.ca,"Vancouver, Canada",49.2827291,-123.1207375
+FuturAgua,Mitchell Small, Carnegie Mellon University,"Pittsburgh, PA",USA,ms35@andrew.cmu.edu,"Pittsburgh, PA, USA",40.4406248,-79.9958864
+FuturAgua,Mark Johnson, University of British Columbia,Vancouver,Canada,mark.johnson@ubc.ca,"Vancouver, Canada",49.2827291,-123.1207375
+FuturAgua,Kai Chan, University of British Columbia,Vancouver,Canada,kaichan@ires.ubc.ca,"Vancouver, Canada",49.2827291,-123.1207375
+FuturAgua,Hadi Dowlatabadi, University of British Columbia,Vancouver,Canada,hadi.d@ubc.ca,"Vancouver, Canada",49.2827291,-123.1207375
+FuturAgua,Iris Grossman, Carnegie Mellon University,"Pittsburgh, PA",USA,irisg@andrew.cmu.edu,"Pittsburgh, PA, USA",40.4406248,-79.9958864
+FuturAgua,Gabrielle Wong-Parodi, Carnegie Mellon University,"Pittsburgh, PA",USA,gwongpar@cmu.edu,"Pittsburgh, PA, USA",40.4406248,-79.9958864
+JWP,Steven Gorelick, Stanford University,"Stanford, CA",USA,gorelick@stanford.edu,"Stanford, CA, USA",37.424106,-122.1660756
+JWP,Erik Gawel, Leipzig University,Leipzig,Germany,gawel@wifa.uni-leipzig.de,"Leipzig, Germany",51.3396955,12.3730747
+JWP,Bernd Klauer, Centre for Environmental Research – UFZ,Leipzig,Germany,bernd.klauer@ufz.de,"Leipzig, Germany",51.3396955,12.3730747
+JWP,Julien Harou, University College London,London,United Kingdom,j.harou@ucl.ac.uk,"London, United Kingdom",51.5073509,-0.1277583
+JWP,Amaury Tilmant, Université Laval,Québec City,Canada,amaury.tilmant@gci.ulaval.ca,"Québec City, Canada",46.8138783,-71.2079809
+JWP,Daanish Mustafa, King’s College,,United Kingdom,,", United Kingdom",55.378051,-3.435973
+JWP,Amer Salman, University of Jordan,Amman,Jordan,asalman@ju.edu,"Amman, Jordan",31.9453666,35.9283716
+JWP,Emad Al-Karablieh, University of Jordan,,Jordan,,", Jordan",30.585164,36.238414
+XINGU,Alex Krusche, University of Sao Paulo,Piracicaba,Brazil,alex@cena.usp.br,"Piracicaba, Brazil",-22.7342864,-47.6480644
+XINGU,Christopher Neill, Marine Biological Laboratory,"Woods Hole, MA",USA,cneill@mbl.edu,"Woods Hole, MA, USA",41.5264977,-70.6730857
+XINGU,Linda Deegan,Marine Biological Laboratory,"Woods Hole, MA",USA,ldeegan@mbl.edu,"Woods Hole, MA, USA",41.5264977,-70.6730857
+XINGU,Michael Coe, Woods Hole Research Center,"Falmouth, MA",USA,mtcoe@whrc.org,"Falmouth, MA, USA",41.5532208,-70.6085886
+XINGU,Maria Victoria Ballester, University of Sao Paulo,Piracicaba,Brazil,vicky@cena.usp.br,"Piracicaba, Brazil",-22.7342864,-47.6480644
+XINGU,Silvia Guerra Molina, University of Sao Paulo,Piracicaba,Brazil,silvia.maria@gmail.com,"Piracicaba, Brazil",-22.7342864,-47.6480644
+XINGU,Antônio Ribeiro Almeida Júnior, University of Sao Paulo,Piracicaba,Brazil,almeidaj@usp.br,"Piracicaba, Brazil",-22.7342864,-47.6480644
+XINGU,Vanessa Empinotti, University of Sao Paulo,São Paulo,Brazil,empinotti@gmail.com,"São Paulo, Brazil",-23.5505199,-46.6333094
+XINGU,Mark Stephen Johnson, University of British Columbia,Vancouver,Canada,mark.johnson@ubc.ca,"Vancouver, Canada",49.2827291,-123.1207375
+XINGU,Leila Harris, University of British Columbia,Vancouver,Canada,lharris@ires.ubc.ca,"Vancouver, Canada",49.2827291,-123.1207375
+XINGU,Helmut Elsenbeer, University of Potsdam,Potsdam,Germany,helsenb@uni-potsdam.de,"Potsdam, Germany",52.3905689,13.0644729
+XINGU,Fernanda Reichardt, University of Sao Paulo,,Brazil,,", Brazil",-14.235004,-51.92528
+XINGU,Maria Elisa de Paula Eduardo Garavello, University of Sao Paulo,,Brazil,,", Brazil",-14.235004,-51.92528
+TLSCC,Lee Hannah, Conservation International and University of California,"Arlington, VA",USA,l.hannah@conservation.org,"Arlington, VA, USA",38.8799697,-77.1067698
+TLSCC,Kevin McCann, University of Guelph,Guelph,Canada,ksmccann@uoguelph.ca,"Guelph, Canada",43.5448048,-80.2481666
+TLSCC,Sovan Lek, Université Paul Sabatier,Toulouse,France,sovan.lek@univ-toulouse.fr,"Toulouse, France",43.604652,1.444209
+TLSCC,Evan Fraser, University of Guelph,Guelph,Canada,frasere@uoguelph.ca,"Guelph, Canada",43.5448048,-80.2481666
+TLSCC,Robert Pomeroy, University of Connecticut,"Groton, CT",USA,robert.pomeroy@uconn.edu,"Groton, CT, USA",41.3497456,-72.0790717
+TLSCC,U. Rashid Sumalia, University of British Columbia,Vancouver,Canada,r.sumaila@fisheries.ubc.ca,"Vancouver, Canada",49.2827291,-123.1207375
+TLSCC,Christopher Costello, University of California,"Santa Babara, CA",USA,costello@bren.ucsb.edu,"Santa Babara, CA, USA",34.4208305,-119.6981901
+TLSCC,Les Kaufman, Boston University,"Boston, MA",USA,lesk@bu.edu,"Boston, MA, USA",42.3600825,-71.0588801
+TLSCC,Kirk Winemiller, Texas A&M University,"College Station, TX",USA,k-winemiller@tamu.edu,"College Station, TX, USA",30.627977,-96.3344068
+TLSCC,So Nam, Mekong River Commission,Phnom Penh,Cambodia,so_nam@hotmail.com,"Phnom Penh, Cambodia",11.5448729,104.8921668
+TLSCC,Chhoeuth Khunleap, University of Battambang,Phnom Penh,Cambodia,khunleap@mail.ru,"Phnom Penh, Cambodia",11.5448729,104.8921668
+TLSCC,Michael Cooperman,Conservation International,"Arlington, VA",USA,m.cooperman@conservation.org,"Arlington, VA, USA",38.8799697,-77.1067698
+TLSCC,Veasna Kum,Mekong Institute of Cambodia,Phnom Penh,Cambodia,veasna_kum@yahoo.com,"Phnom Penh, Cambodia",11.5448729,104.8921668
+SAHEWS,Declan Conway, Water Security Research Centre,Norwich,United Kingdom,d.conway@uea.ac.uk,"Norwich, United Kingdom",52.6308859,1.297355
+SAHEWS,Tim Osborn, University of East Anglia,Norwich,United Kingdom,t.osborn@uea.ac.uk,"Norwich, United Kingdom",52.6308859,1.297355
+SAHEWS,Claudia Ringler, International Food Policy Research Institute,"Washington, DC",USA,c.ringler@cgiar.org,"Washington, DC, USA",38.9071923,-77.0368707
+SAHEWS,Willem Landman, Council for Scientific and Industrial Research,Pretoria,South Africa,WALandman@csir.co.za,"Pretoria, South Africa",-25.7478676,28.2292712

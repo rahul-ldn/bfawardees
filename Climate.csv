@@ -1,0 +1,62 @@
+CRA,Name,Institution,City,Country,Email address,Location,Latitude,Longitude
+GOTHAM,Lesley Gray,University of Oxford,Oxford,United Kingdom,lesley.gray@physics.ox.ac.uk,"Oxford, United Kingdom",51.7520209,-1.2577263
+GOTHAM,Shingo Watanabe,JAMSTEC,Yokohama,Japan,wnabe@jamstec.go.jp,"Yokohama, Japan",35.4437078,139.6380256
+GOTHAM,François Lott,IPSL,Paris,France,flott@lmd.ens.fr,"Paris, France",48.856614,2.3522219
+GOTHAM,Krishnan Raghavan,Indian Institute of Tropical Meteorology,Pune,India,krish@tropmet.res.in,"Pune, India",18.5204303,73.8567437
+GOTHAM,Ramesh Vellore,Indian Institute of Tropical Meteorology,Pune,India,rameshv@tropmet.res.in,"Pune, India",18.5204303,73.8567437
+GOTHAM,Reik Donner,Postdam Institute for Climate Impact Research,Potsdam,Germany,reik.donner@pik-potsdam.de,"Potsdam, Germany",52.3905689,13.0644729
+GOTHAM,Dim Coumou,Postdam Institute for Climate Impact Research,Potsdam,Germany,coumou@pik-potsdam.de,"Potsdam, Germany",52.3905689,13.0644729
+GOTHAM,Bo Wu,Institute of Atmospheric Physics,Beijing,China,wubo@mail.iap.ac.cn,"Beijing, China",39.9041999,116.4073963
+GOTHAM,David Wallom,University of Oxford,Oxford,United Kingdom,,"Oxford, United Kingdom",51.7520209,-1.2577263
+GOTHAM,Eric Guilyardi,IPSL,,France,,", France",46.227638,2.213749
+BITMAP,Andrew Turner,University of Reading,Reading,United Kingdom,a.g.turner@reading.ac.uk,"Reading, United Kingdom",51.4542645,-0.9781303
+BITMAP,Valerio Lucarini,University of Hamburg,Hamburg,Germany,valerio.lucarini@uni-hamburg.de,"Hamburg, Germany",53.5510846,9.9936818
+BITMAP,Ashis Mitra,National Centre for Medium Range Weather Forecasting,Noida,India,akm@ncmrwf.gov.in,"Noida, India",28.5355161,77.3910265
+BITMAP,Len Shaffrey,University of Reading,Reading,United Kingdom,l.c.shaffrey@rdg.ac.uk,"Reading, United Kingdom",51.4542645,-0.9781303
+PREREAL,Igor Drobyshev,Swedish University of Agricultural Sciences,Alnarp,Sweden,igor.drobyshev@slu.se,"Alnarp, Sweden",55.6576454,13.0823602
+PREREAL,Adam Ali,University of Montepellier II,Montpellier,France,ali@univ-montp2.fr,"Montpellier, France",43.610769,3.876716
+PREREAL,Annika Hofgaard,Norwegian Institute for Nature Research,Trondheim,Norway,annika.hofgaard@nina.no,"Trondheim, Norway",63.4305149,10.3950528
+PREREAL,Rui Li,University of Science and Technology of China,Hefei,China,rli7@ustc.edu.cn,"Hefei, China",31.820591,117.227219
+PREREAL,Peter van Velthoven,Royal Netherlands Meteorological Institute,De Bilt,The Netherlands,peter.van.velthoven@knmi.nl,"De Bilt, The Netherlands",52.1092717,5.1809676
+PREREAL,Yves Bergeron,Université du Québec à Montréal,Montréal,Canada,yves.bergeron@uqam.ca,"Montréal, Canada",45.5016889,-73.567256
+PACMEDY,Pascale Braconnot,Centre National de la Recherche Scientifique,Gif-sur-Yvette,France,pascale.braconnot@lsce.ipsl.fr,"Gif-sur-Yvette, France",48.701844,2.134078
+PACMEDY,Sandy P. Harrison,University of Reading,Reading,United Kingdom,s.p.harrison@reading.ac.uk,"Reading, United Kingdom",51.4542645,-0.9781303
+PACMEDY,Alexander Tudhope,University of Edinburgh,Edinburgh,United Kingdom,sandy.tudhope@ed.ac.uk,"Edinburgh, United Kingdom",55.953252,-3.188267
+PACMEDY,Christopher Brierley,University College London,London,United Kingdom,c.brierley@ucl.ac.uk,"London, United Kingdom",51.5073509,-0.1277583
+PACMEDY,Krishnan Raghavan,Indian Institute of Tropical Meteorology,Pune,India,krish@tropmet.res.in,"Pune, India",18.5204303,73.8567437
+PACMEDY,Johann H. Jungclaus,Max Planck Institute for Meteorology,Hamburg,Germany,johann.jungclaus@mpimet.mpg.de,"Hamburg, Germany",53.5510846,9.9936818
+PACMEDY,Eduardo Zorita,Helmholtz-Zentrum Geesthacht,Geesthact,Germany,eduardo.zorita@hzg.de,"Geesthact, Germany",53.4379562,10.3611665
+PACMEDY,Gerrit Lohmann,Alfred Wegener Institute - Helmholtz Centre for Polar and Marine Research,Bremerhaven,Germany,gerrit.lohmann@awi.de,"Bremerhaven, Germany",,
+PACMEDY,Francesco Salvatore Rocco Pausata,Stockholm University,Stockholm,Sweden,francesco.pausata@misu.su.se,"Stockholm, Sweden",59.3293235,18.0685808
+PACMEDY,Thierry Corrège,EPOC,Pessac,France,thierry.correge@u-bordeaux.fr,"Pessac, France",44.80583,-0.630386
+PACMEDY,Bruno Turcq,Laboratoire d'Océanographie et du Climat: IPSL/IRD/CNRS/MNHN,Bondy,France,bruno.turcq@ird.fr,"Bondy, France",48.906008,2.481875
+PACMEDY,Matthieu Carré,Institut des Sciences de l'Evolution de Montpellier,Montpellier,France,matthieu.carre@univ-montp2.fr,"Montpellier, France",43.610769,3.876716
+PACMEDY,Luc Beaufort,CEREGE,Aix-en-Provence,France,beaufort@cerege.fr,"Aix-en-Provence, France",43.529742,5.447427
+PACMEDY,Mary Elliot,Laboratoire de Planetologie et Geodynamique de Nantes,Nantes,France,mary.elliot@univ-nantes.fr,"Nantes, France",47.218371,-1.553621
+PACMEDY,Pedro Leite da Silva Dias,University of São Paulo,São Paulo,Brazil,pldsdias@model.iag.usp.br,"São Paulo, Brazil",-23.5505199,-46.6333094
+PACMEDY,Weiping Zheng,Institute of Atmospheric Physics,Beijing,China,zhengwp@mail.iap.ac.cn,"Beijing, China",39.9041999,116.4073963
+InterDec,Daniela Matei,Max Planck Institute for Meteorology,Hamburg,Germany,daniela.matei@mpimet.mpg.de,"Hamburg, Germany",53.5510846,9.9936818
+InterDec,Hisashi Nakamura,University of Tokyo,Tokyo,Japan,hisashi@atmos.rcast.u-tokyo.ac.jp,"Tokyo, Japan",35.6894875,139.6917064
+InterDec,Jinro Ukita,Niigata University,Niigata,Japan,jukita@env.sc.niigata-u.ac.jp,"Niigata, Japan",37.9161924,139.0364126
+InterDec,Tao Wang,Chinese Academy of Sciences,Beijing,China,wangtao@mail.iap.ac.cn,"Beijing, China",39.9041999,116.4073963
+InterDec,Mojib Latif,GEOMAR Helmholtz-Zentrum für Ozeanforschung,Kiel,Germany,mlatif@geomar.de,"Kiel, Germany",54.3232927,10.1227652
+InterDec,Yongqi Gao,Nansen Environmental and Remote Sensing Center,Bergen,Norway,yongqi.gao@nersc.no,"Bergen, Norway",60.3912628,5.3220544
+InterDec,Noel Keenlyside,University of Bergen,Bergen,Norway,noel.keenlyside@gfi.uib.no,"Bergen, Norway",60.3912628,5.3220544
+InterDec,Torben Koenigk,Svergies meteorologiska och hydrologiska institut (SMHI),Norrköping,Sweden,torben.koenigk@smhi.se,"Norrköping, Sweden",58.587745,16.192421
+InterDec,Steven James Woolnough,University of Reading,Reading,United Kingdom,s.j.woolnough@reading.ac.uk,"Reading, United Kingdom",51.4542645,-0.9781303
+InterDec,Frederic Vitart,European Centre for Medium-range Weather Forecasts,Reading,United Kingdom,frederic.vitart@ecmwf.int,"Reading, United Kingdom",51.4542645,-0.9781303
+INTEGRATE,Timothy Osborn,University of East Anglia,Norwich,United Kingdom,t.osborn@uea.ac.uk,"Norwich, United Kingdom",52.6308859,1.297355
+INTEGRATE,Bao Yang,Chinese Academy of Sciences,Lanzhou,China,yangbao@lzb.ac.cn,"Lanzhou, China",36.061089,103.834303
+INTEGRATE,Jürg Luterbacher,Justus Liebig University of Giessen,Giessen,Germany,juerg.luterbacher@geogr.uni-giessen.de,"Giessen, Germany",50.5840512,8.6784031
+HIWAVES3,Frank Selten,Royal Netherlands Meteorological Institute,De Bilt,The Netherlands,selten@knmi.nl,"De Bilt, The Netherlands",52.1092717,5.1809676
+HIWAVES3,Solveig Glomsrod,CICERO,Oslo,Norway,sgl@cicero.oslo.no,"Oslo, Norway",59.9138688,10.7522454
+HIWAVES3,James Screen,University of Exeter,Exeter,United Kingdom,j.screen@exeter.ac.uk,"Exeter, United Kingdom",50.718412,-3.533899
+HIWAVES3,Tianyl Zhang,Chinese Academy of Sciences,Beijing,China,zhangty@post.iap.ac.cn,"Beijing, China",39.9041999,116.4073963
+HIWAVES3,Vimal Mishra,Indian Institute of Technology,Ahmedabada,India,vmishra@iitgn.ac.in,"Ahmedabada, India",23.022505,72.5713621
+CLIMAX,Carolina Vera,Centre National de la Recherche Scientifique,Buenos Aires,Argentina,carolina@cima.fcen.uba.ar,"Buenos Aires, Argentina",-34.6036844,-58.3815591
+CLIMAX,Iracema Cavalcanti,National Institute for Space Science,São José dos Campos,Brazil,iracema.cavalcanti@cptec.inpe.br,"São José dos Campos, Brazil",-23.223701,-45.9009074
+CLIMAX,Philippe Ciais,Centre National de la Recherche Scientifique,Gif-sur-Yvette,France,philippe.ciais@lsce.ipsl.fr,"Gif-sur-Yvette, France",48.701844,2.134078
+CLIMAX,Bart Kruijt,Wageningen - UR - ALTERRA,Wageningen,The Netherlands,bart.kruijt@wur.nl,"Wageningen, The Netherlands",51.9691868,5.6653948
+CLIMAX,Anja Rammig,Technical University Munich,Freising,Germany,anja.rammig@pik-potsdam.de,"Freising, Germany",48.4028796,11.7411846
+CLIMAX,Kirsten Thonicke,Potsdam Institute for Climate Impact Research,Potsdam,Germany,kirsten.thonicke@pik-potsdam.de,"Potsdam, Germany",52.3905689,13.0644729
+CLIMAX,Valeria Alicia Hernandez,Institut de recherche pour le développement,Paris,France,hernandez.vale@yahoo.com,"Paris, France",48.856614,2.3522219

@@ -1,0 +1,39 @@
+CRA,Name,Institution,City,Country,Email address,Location,Latitude,Longitude
+VULPES,Rachid Cheddadi,Centre national de la recherche scientifique,Montpellier,France,rachid.cheddadi@um2.fr,"Montpellier, France",43.610769,3.876716
+VULPES,Mark Bush ,Florida Institute of Technology,"Melbourne, FL",USA,mbush@fit.edu,"Melbourne, FL, USA",28.0836269,-80.6081089
+VULPES,Pierre Taberlet,Centre national de la recherche scientifique,Grenoble,France,pierre.taberlet@ujf-grenoble.fr,"Grenoble, France",45.188529,5.724524
+VULPES,Kangyou Huang,Sun Yat-sen University,Guangzhou,China,hkangy@mail.sysu.edu.cn,"Guangzhou, China",23.12911,113.264385
+VULPES,Anne-Marie Lézine,Centre national de la recherche scientifique,Paris,France,anne-marie.lezine@locean-ipsl.upmc.fr,"Paris, France",48.856614,2.3522219
+VULPES,Paulo De Oliveira,University of São Paulo,São Paulo,Brazil,paulo.deoliveira@usp.br,"São Paulo, Brazil",-23.5505199,-46.6333094
+VULPES,Louis François,University of Liège,Liège,Belgium,louis.francois@ulg.ac.be,"Liège, Belgium",50.6325574,5.5796662
+P3,Dirk S. Schmeller,Helmholtz Center for Environmental Research,Leipzig,Germany,dirk.schmeller@ufz.de,"Leipzig, Germany",51.3396955,12.3730747
+P3,Gael Le Roux,"Paul Sabatier University, CNRS",Toulouse,France,gael.leroux@ensat.fr,"Toulouse, France",43.604652,1.444209
+P3,Vance Vredenburg,San Francisco State University,"San Francisco, CA",USA,vancev@sfsu.edu,"San Francisco, CA, USA",37.7749295,-122.4194155
+P3,Ji Shen,Nanjing Institute of Geography and Limnology,Nanjing,China,jishen@niglas.ac.cn,"Nanjing, China",32.060255,118.796877
+NILE-NEXUS,Benjamin Zaitchik,Johns Hopkins University,"Baltimore, MD",USA,zaitchik@jhu.edu,"Baltimore, MD, USA",39.2903848,-76.6121893
+NILE-NEXUS,Jeremy Foltz,University of Wisconsin-Madison,"Madison, WI",USA,jdfoltz@wisc.edu,"Madison, WI, USA",43.0730517,-89.4012302
+NILE-NEXUS,Belay Simane,Addis Ababa University,Addis Ababa,Ethiopia,simaneb@yahoo.com,"Addis Ababa, Ethiopia",8.9806034,38.7577605
+NILE-NEXUS,Detlef Mueller-Mahn,University of Bonn,Bonn,Germany,mueller-mahn@uni-bonn.de,"Bonn, Germany",50.73743,7.0982068
+NILE-NEXUS,Gianni Gilioli,University of Brescia,Brescia,Italy,gianni.gilioli@unibs.it,"Brescia, Italy",45.5415526,10.2118019
+ECCAP,Karim Aly-Kassam,Cornell University,"Ithaca, NY",USA,ksk28@cornell.edu,"Ithaca, NY, USA",42.4439614,-76.5018807
+ECCAP,Antonio Trabucco,Euro-Mediterranean Center on Climate Change,Sassari,Italy,antonio.trabucco@cmcc.it,"Sassari, Italy",40.7259269,8.5556826
+ECCAP,Jianchu Xu,"Kunming Institute of Botany, Chinese Academy of Sciences",Kunming,China,jxu@mail.kib.ac.cn,"Kunming, China",24.880095,102.832891
+ECCAP,Cyrus Samimi,University of Bayreuth,Bayreuth,Germany,cyrus.samimi@uni-bayreuth.de,"Bayreuth, Germany",49.9456399,11.5713346
+ECCAP,Kachra Ariff,University of Central Asia,Bishkek,Kyrgyz Republic,ariff.kachra@ucentralasia.org,"Bishkek, Kyrgyz Republic",42.8746212,74.5697617
+CLIMTREE,Carlos Lopez Vaamonde,URZF INRA Orléans,Orléans,France,carlos.lopez-vaamonde@orleans.inra.fr,"Orléans, France",47.902964,1.909251
+CLIMTREE,Christophe Bouget,IRSTEA Nogent-sur-Vernisson,Nogent-sur-Vernisson,France,christophe.bouget@irstea.fr,"Nogent-sur-Vernisson, France",47.846388,2.741782
+CLIMTREE,Douglas Yu,Kunming Institute of Zoology,Kunming,China,dougwyu@gmail.com,"Kunming, China",24.880095,102.832891
+CLIMTREE,Diego Fontaneto,"Institute of Ecosystem Study, CNR",Verbania,Italy,d.fontaneto@ise.cnr.it,"Verbania, Italy",45.9283065,8.5553711
+CLIMTREE,Rodolphe Rougerie,MNHM Paris,Paris,France,rrougeri@gmail.com,"Paris, France",48.856614,2.3522219
+CLIMTREE,Laurent Larrieu,"Dynafor, INFRA-Toulouse, CNPF-IDF",Auzeville Tolosanne,France,laurent.larrieu@cnpf.fr,"Auzeville Tolosanne, France",43.529195,1.483651
+CLIMTREE,Jörg Müller,Bavarian Forest National Park,Grafenau,Germany,joerg.mueller@npv-bw.bayern.de,"Grafenau, Germany",48.8592113,13.3946444
+CLIMTREE,Philippe Deuffic,IRSTEA Bordeaux,Cestas,France,philippe.deuffic@irstea.fr,"Cestas, France",44.741163,-0.684355
+CLIMTREE,Marius Mayer,University of Greifswald,Greifswald,Germany,marius.mayer@uni-greifswald.de,"Greifswald, Germany",54.0865463,13.3923414
+CLIMTREE,Rhett Harrison,Kunming Institute of Botany,Kunming,China,r.harrison@cgiar.org,"Kunming, China",24.880095,102.832891
+CLIMTREE,Davide Pettenella,Padova University,Padova,Italy,davide.pettenella@unipd.it,"Padova, Italy",45.4064349,11.8767611
+CLIMTREE,Michael T. Monaghan,Leibniz-Institute of Freshwater Ecology and Inland Fisheries,Berlin,Germany,monaghan@igb-berlin.de,"Berlin, Germany",52.5200066,13.404954
+CLIMTREE,Elisabeth Herniou,IRBI CNRS-Université François Rabelais de Tours,Tours,France,elisabeth.herniou@univ-tours.fr,"Tours, France",47.394144,0.68484
+ClimateWise,Kate Brauman,University of Minnesota,"Minneapolis, MN",USA,kbrauman@umn.edu,"Minneapolis, MN, USA",44.977753,-93.2650108
+ClimateWise,Alexandra Ponette-Gonzalez,University of North Texas,"Denton, TX",USA,alexandra@unt.edu,"Denton, TX, USA",33.2148412,-97.1330683
+ClimateWise,Humberto Rocha,University of São Paulo,São Paulo,Brazil,humberto.rocha@iag.usp.br,"São Paulo, Brazil",-23.5505199,-46.6333094
+ClimateWise,Martina Flörke,University of Kassel,Kassel,Germany,floerke@usf.uni-kassel.de,"Kassel, Germany",51.3127114,9.4797461

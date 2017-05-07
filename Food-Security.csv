@@ -1,0 +1,83 @@
+CRA,Name,Institution,City,Country,Email address,Location,Latitude,Longitude
+SAFGOV,John Ingram, University of Oxford ,Oxford,United Kingdom,john.ingram@eci.ox.ac.uk,"Oxford, United Kingdom",51.7520209,-1.2577263
+SAFGOV,Scott Drimie, Southern African Food Lab (SAFL) based at the University of Stellenbosch,Stellenbosch,South Africa,scottdrimie@mweb.co.za,"Stellenbosch, South Africa",-33.9321045,18.860152
+SAFGOV,Peter Allison Johnston, University of Cape Town,Cape Town,South Africa,peter@csag.uct.ac.za,"Cape Town, South Africa",-33.9248685,18.4240553
+SAFGOV,Mark George New, University of Cape Town,Cape Town,South Africa,mark.new@acdi.uct.ac.za,"Cape Town, South Africa",-33.9248685,18.4240553
+SAFGOV,Gina Ziervogel, University of Cape Town,Cape Town,South Africa,gina@csag.uct.ac.za,"Cape Town, South Africa",-33.9248685,18.4240553
+SAFGOV,Elizabeth Oughton, University of Newcastle upon Tyne,Newcastle upon Tyne,United Kingdom,elizabeth.oughton@ncl.ac.uk,"Newcastle upon Tyne, United Kingdom",54.978252,-1.61778
+SAFGOV,John Gowing, University of Newcastle upon Tyne,Newcastle upon Tyne,United Kingdom,john.gowing@ncl.ac.uk,"Newcastle upon Tyne, United Kingdom",54.978252,-1.61778
+SAFGOV,Tracy Irani, University of Florida,"Gainesville, FL",USA,irani@ufl.edu,"Gainesville, FL, USA",29.6516344,-82.3248262
+SAFGOV,Teresa Balser, University of Florida,"Gainesville, FL",USA,tcbalser@ufl.edu,"Gainesville, FL, USA",29.6516344,-82.3248262
+SAFGOV,Alexa Lamm, University of Florida,"Gainesville, FL",USA,alamm@ufl.edu,"Gainesville, FL, USA",29.6516344,-82.3248262
+SAFGOV,Catherina J.A.M.Termeer, Wageningen University,Wageningen,The Netherlands,katrien.termeer@wur.nl,"Wageningen, The Netherlands",51.9691868,5.6653948
+SAFGOV,Kasper Kok, Wageningen University ,Wageningen,The Netherlands,kasper.kok@wur.nl,"Wageningen, The Netherlands",51.9691868,5.6653948
+THESIS,Tim Hess, Cranfield University,Cranfield,United Kingdom,t.hess@cranfield.ac.uk,"Cranfield, United Kingdom",52.0686347,-0.6087411
+THESIS,James Sumberg, Institute of Development Studies (IDS),Brighton,United Kingdom,j.sumberg@ids.ac.uk,"Brighton, United Kingdom",50.82253,-0.137163
+THESIS,Trent Biggs, San Diego State University,"San Diego, CA",USA,tbiggs@mail.sdsu.edu,"San Diego, CA, USA",32.715738,-117.1610838
+THESIS,Cristina Milesi, California State University Monterey Bay,"Moffett Field, CA",USA,cristina.milesi@gmail.com,"Moffett Field, CA, USA",37.3860517,-122.0838511
+THESIS,Mutlu Ozdogan, University of Wisconsin - Madison,"Madison, WI",USA,ozdogan@wisc.edu,"Madison, WI, USA",43.0730517,-89.4012302
+THESIS,Matei Georgescu, Arizona State University,"Tempe, AZ",USA,matei.georgescu@asu.edu,"Tempe, AZ, USA",33.4255104,-111.9400054
+THESIS,Prasad Thenkabail, U. S. Geological Survey,"Flagstaff, AZ",USA,pthenkabail@usgs.gov,"Flagstaff, AZ, USA",35.1982836,-111.651302
+THESIS,Fabio Marin, University of São Paulo – Luiz de Queiroz College of Agriculture,Campinas,Brazil,fabio.marin@usp.br,"Campinas, Brazil",-22.9098833,-47.0625812
+THESIS,Murali Krishna Gumma, International Crops Research Institute for the Semi-Arid Tropics (ICRISAT),Hyderabad,India,m.gumma@cgiar.org,"Hyderabad, India",17.385044,78.486671
+THESIS,David Nixon, Booker Tate Ltd,Thame,United Kingdom,david.nixon@booker-tate.co.uk,"Thame, United Kingdom",51.746997,-0.974188
+THESIS,Michael Marshall, World Agroforestry Centre (ICRAF),Nairobi,Kenya,mojavemarshall@gmail.com,"Nairobi, Kenya",-1.2920659,36.8219462
+THESIS,Graham Jewitt," Centre for Water Resources Research, University of KwaZulu-Natal",Durban,South Africa,JewittG@ukzn.ac.za,"Durban, South Africa",-29.8586804,31.0218404
+SMARTS2,Catherine Chan-Halbrendt, University of Hawaii,"Honolulu, HI",USA,chanhalb@hawaii.edu,"Honolulu, HI, USA",21.3069444,-157.8583333
+SMARTS2,Brent Sipes, University of Hawaii at Manoa,"Honolulu, HI",USA,sipes@hawaii.edu,"Honolulu, HI, USA",21.3069444,-157.8583333
+SMARTS2,Travis Idol, University of Hawaii,"Honolulu, HI",USA,idol@hawaii.edu,"Honolulu, HI, USA",21.3069444,-157.8583333
+SMARTS2,Tadayoshi Masuda, Research Institute for Humanity and Nature (RIHN),Kyoto,Japan,tmasuda@chikyu.ac.jp,"Kyoto, Japan",35.0116363,135.7680294
+SMARTS2,Pravat Kumar Roul, Orissa University of Agriculture and Technology,Bhubaneswar,India,roulpvt@gmail.com,"Bhubaneswar, India",20.2960587,85.8245398
+SMARTS2,Nityananda Dhal, PRADAN,Kendujhar,India,nityananddhal@pradan.net,"Kendujhar, India",21.628933,85.5816847
+SMARTS2,Wim Van der Putten, Wageningen University,Wageningen,The Netherlands,w.vanderputten@nioo.knaw.nl,"Wageningen, The Netherlands",51.9691868,5.6653948
+SMARTS2,Steven Gray, University of Massachusetts,"Boston, MA",USA,steven.gray@umb.edu,"Boston, MA, USA",42.3600825,-71.0588801
+AFGROLAND,Ward Anseeuw, CIRAD UMR Art-Dev,Pretoria,South Africa,ward.anseeuw@up.ac.za,"Pretoria, South Africa",-25.7478676,28.2292712
+AFGROLAND,Perrine Burnod, CIRAD UMR Tetis,Antananarivo,Madagascar,perrine.burnod@cirad.fr,"Antananarivo, Madagascar",-18.8791902,47.5079055
+AFGROLAND,Magalie Bourblanc, CIRAD UMR G-Eau,Pretoria,South Africa,magalie.bourblanc@cirad.fr,"Pretoria, South Africa",-25.7478676,28.2292712
+AFGROLAND,Eve Fouilleux, CIRAD UMR Moisa,Montpellier,France,eve.fouilleux@cirad.fr,"Montpellier, France",43.610769,3.876716
+AFGROLAND,Peter Messerli,"CDE, University of Bern",Bern,Switzerland,peter.messerli@cde.unibe.ch,"Bern, Switzerland",46.9479739,7.4474468
+AFGROLAND,Johann Kirsten, University of Pretoria,Pretoria,South Africa,Johann.Kirsten@up.ac.za,"Pretoria, South Africa",-25.7478676,28.2292712
+AFGROLAND,Sheryl Hendriks, University of Pretoria,Pretoria,South Africa,Sheryl.hendriks@up.ac.za,"Pretoria, South Africa",-25.7478676,28.2292712
+AFGROLAND,John Annandale, University of Pretoria,Pretoria,South Africa,John.annandale@up.ac.za,"Pretoria, South Africa",-25.7478676,28.2292712
+AFGROLAND,Lorenzo Fioramonti, University of Pretoria,Pretoria,South Africa,lorenzo.fioramonti@up.ac.za,"Pretoria, South Africa",-25.7478676,28.2292712
+AFGROLAND,Mike Taylor, International Land Coalition,Rome,Italy,m.taylor@landcoalition.org,"Rome, Italy",41.9027835,12.4963655
+AFGROLAND,Henri Minnaar, NEPAD Business Foundation,Johannesburg,South Africa,henri.minnaar@thenbf.co.za,"Johannesburg, South Africa",-26.2041028,28.0473051
+DEVIL,Pete Smith," Scottish Food Security Alliance, University of Aberdeen",Aberdeen,United Kingdom,pete.smith@abdn.ac.uk,"Aberdeen, United Kingdom",57.149717,-2.094278
+DEVIL,Deb Roberts,King's College,Aberdeen,United Kingdom,deb.roberts@abdn.ac.uk,"Aberdeen, United Kingdom",57.149717,-2.094278
+DEVIL,Paul West,"University of Minnesota, Institute on the Environment ","Saint Paul, MN",USA,pcwest@umn.edu,"Saint Paul, MN, USA",44.9537029,-93.0899578
+DEVIL,James Gerber,"University of Minnesota, Institute on the Environment ","Saint Paul, MN",USA,jsgerber@umn.edu,"Saint Paul, MN, USA",44.9537029,-93.0899578
+DEVIL,Mario Herrero, CSIRO,St. Lucia,Australia,mario.herrero@csiro.au,"St. Lucia, Australia",-27.5,153
+DEVIL,Robert John Scholes, CSIR,Pretoria,South Africa,bscholes@csir.co.za,"Pretoria, South Africa",-25.7478676,28.2292712
+DEVIL,Jean P. Ometto, INPE,São José dos Campos,Brazil,jean.ometto@inpe.br,"São José dos Campos, Brazil",-23.223701,-45.9009074
+DEVIL,Trilochan Mohapatra, Central Rice Research Institute,Cuttack,India,directorcrri@sify.com,"Cuttack, India",20.462521,85.8829895
+DEVIL,Jean-François Soussana, INRA,Paris,France,jean-francois.soussana@paris.inra.fr,"Paris, France",48.856614,2.3522219
+DEVIL,Nina Buchmann, ETH Zurich,Zurich,Switzerland,nbuchmann@ethz.ch,"Zurich, Switzerland",47.3768866,8.541694
+ABC Telecoupling,Luiz Martinelli, University of São Paulo,Piracicaba,Brazil,martinelli@cena.usp.br,"Piracicaba, Brazil",-22.7342864,-47.6480644
+ABC Telecoupling,Mateus Batistella, Embrapa Satellite Monitoring,Campinas,Brazil,mateus.batistella@embrapa.br,"Campinas, Brazil",-22.9098833,-47.0625812
+ABC Telecoupling,Leila Ferreira, University of Campinas,Campinas,Brazil,leilacf@unicamp.br,"Campinas, Brazil",-22.9098833,-47.0625812
+ABC Telecoupling,Daniel Victoria, Embrapa Satellite Monitoring,Campinas,Brazil,daniel.victoria@embrapa.br,"Campinas, Brazil",-22.9098833,-47.0625812
+ABC Telecoupling,Edson Bofle, Embrapa Satellite Monitoring,Campinas,Brazil,edson.bolfe@embrapa.br,"Campinas, Brazil",-22.9098833,-47.0625812
+ABC Telecoupling,Claudio Bragantini, Embrapa Satellite Monitoring,Campinas,Brazil,claudio.bragantini@embrapa.br,"Campinas, Brazil",-22.9098833,-47.0625812
+ABC Telecoupling,Fabiana Barbi, University of Campinas,Jundiai,Brazil,fabarbi@gmail.com,"Jundiai, Brazil",-23.1857076,-46.8978057
+ABC Telecoupling,Emilio Moran, Michigan State University,"East Lansing, MI",USA,moranef@msu.edu,"East Lansing, MI, USA",42.7369792,-84.4838654
+ABC Telecoupling,Jianguo Liu, Michigan State University,"East Lansing, MI",USA,liuji@msu.edu,"East Lansing, MI, USA",42.7369792,-84.4838654
+ABC Telecoupling,Jiaguo Qi, Michigan State University,"East Lansing, MI",USA,qi@msu.edu,"East Lansing, MI, USA",42.7369792,-84.4838654
+ABC Telecoupling,Douglas Buhler, Michigan State University,"East Lansing, MI",USA,buhler@msu.edu,"East Lansing, MI, USA",42.7369792,-84.4838654
+ABC Telecoupling,Charles Godfray, University of Oxford,Oxford,United Kingdom,charles.godfray@zoo.ox.ac.uk,"Oxford, United Kingdom",51.7520209,-1.2577263
+ABC Telecoupling,James Millington, King's College,London,United Kingdom,james.millington@kcl.ac.uk,"London, United Kingdom",51.5073509,-0.1277583
+ABC Telecoupling,Steve Yearley, University of Edinburgh ,Edinburgh,United Kingdom,steve.yearley@ed.ac.uk,"Edinburgh, United Kingdom",55.953252,-3.188267
+ABC Telecoupling,Tara Garnett, University of Oxford,Oxford,United Kingdom,taragarnett@fcrn.org.uk,"Oxford, United Kingdom",51.7520209,-1.2577263
+ABC Telecoupling,Jeremy Woods, Centre for Environmental Policy,London,United Kingdom,jeremy.woods@imperial.ac.uk,"London, United Kingdom",51.5073509,-0.1277583
+ABC Telecoupling,Huajun Tang, Chinese Academy of Agricultural Sciences,Beijing,China,tanghuajun@caas.cn,"Beijing, China",39.9041999,116.4073963
+ABC Telecoupling,Zhiyun Ouyang, Chinese Academy of Sciences,Beijing,China,zyouyang@rcees.ac.cn,"Beijing, China",39.9041999,116.4073963
+ABC Telecoupling,Fusuo Zhang, China Agricultural University,Beijing,China,zhangfs@cau.edu.cn,"Beijing, China",39.9041999,116.4073963
+ABC Telecoupling,Ninghui Li, Chinese Academy of Agricultural Sciences,Beijing,China,lininghui@caas.cn,"Beijing, China",39.9041999,116.4073963
+ABC Telecoupling,Lubiao Zhang, Chinese Academy of Agricultural Sciences,Beijing,China,zhanglubiao@caas.cn,"Beijing, China",39.9041999,116.4073963
+ABC Telecoupling,Andrew Jarvis, CIAT,Cali,Colombia,a.jarvis@cgiar.org,"Cali, Colombia",3.4516467,-76.5319854
+ABC Telecoupling,Kevin Chen, IFPRI,Beijing,China,k.chen@cgiar.org,"Beijing, China",39.9041999,116.4073963
+ABC Telecoupling,An Liu, FAO China Office,Beijing,China,an.liu@fao.org,"Beijing, China",39.9041999,116.4073963
+FICESSA,Alexandros Gasparatos, University of Tokyo (UT),Tokyo,Japan,gasparatos@ir3s.u-tokyo.ac.jp,"Tokyo, Japan",35.6894875,139.6917064
+FICESSA,Anna Locke, Overseas Development Institute (ODI),London,United Kingdom,a.locke@odi.org.uk,"London, United Kingdom",51.5073509,-0.1277583
+FICESSA,Kathy Willis, Royal Botanical Gardens Kew (RBGK),Richmond,United Kingdom,k.willis@kew.org,"Richmond, United Kingdom",51.461311,-0.303742
+FICESSA,Graham Von Maltitz, Council for Scientific and Industrial Research (CSIR),Pretoria,South Africa,gvmalt@csir.co.za,"Pretoria, South Africa",-25.7478676,28.2292712
+FICESSA,Kazuhiko Takeuchi, United Nations University (UNU),Tokyo,Japan,takeuchi@unu.edu,"Tokyo, Japan",35.6894875,139.6917064

@@ -1,0 +1,45 @@
+CRA,Name,Institution,City,Country,Email address,Location,Latitude,Longitude
+ScenNet,Sandra Lavorel, CNRS, Grenoble,France,sandra.lavorel@ujf-grenoble.fr," Grenoble, France",45.188529,5.724524
+ScenNet,Osamu Saito, UNUIAS, Tokyo,Japan,saito@unu.edu," Tokyo, Japan",35.6894875,139.6917064
+ScenNet,Mingchang Cao, NIES, Nanjing,China,caomingc@163.com," Nanjing, China",32.060255,118.796877
+ScenNet,John-Arvid Grytnes, University of Bergen, Bergen,Norway,grytnes@bio.uib.no," Bergen, Norway",60.3912628,5.3220544
+ScenNet,Jean Paul Metzger, University of São Paulo, São Paulo,Brazil,jpm@ib.usp.br," São Paulo, Brazil",-23.5505199,-46.6333094
+ScenNet,Guy Franklin Midgley, Stellenbosch University, Stellenbosch,South Africa,gfmidgley@sun.ac.za," Stellenbosch, South Africa",-33.9321045,18.860152
+ScenNet,Karachepone Ninan,Institute for Social and Economic Change,Bangalore,India,ninankn@yahoo.co.in,"Bangalore, India",12.9715987,77.5945627
+ScenNet,Katrin Boehning-Gaese, Goethe University,Frankfurt am Main,Germany,katrin.boehining-gaese@senckenberg.de,"Frankfurt am Main, Germany",50.1109221,8.6821267
+ScenNet,Simon Ferrier, CSIRO, Canberra,Australia,simon.ferrier@csiro.au," Canberra, Australia",-35.2809368,149.1300092
+ScenNet,Wilfried Thuiller,CNRS,Grenoble,France,wilfried.thuiller@ujf-grenoble.fr,"Grenoble, France",45.188529,5.724524
+ScenNet,Paul Leadley,Université Paris-Sud,Orsay,France,paul.leadley@u-psud.fr,"Orsay, France",48.697161,2.189617
+ScenNet,Philippe Cury, Université Montpellier II, Sète,France,philippe.cury@ird.fr," Sète, France",43.4078758,3.7008219
+ScenNet,Wolfgang Cramer, IMBE, Aix-en-Provence,France,wolfgang.cramer@imbe.fr," Aix-en-Provence, France",43.529742,5.447427
+ScenNet,FRB, Fondation pour la Recherche sur la Biodiversité, Paris,France,secretariat@fondationbiodiversite.fr," Paris, France",48.856614,2.3522219
+ScenNet,Brendan A. Wintle,University of Melbourne,Melbourne,Australia,brendanw@unimelb.edu.au,"Melbourne, Australia",-37.8136276,144.9630576
+ScenNet,Walter Jetz,Yale University,"New Haven, CT",USA,walter.jetz@yale.edu,"New Haven, CT, USA",41.308274,-72.9278835
+ScenNet,Satyapalan Jyothis, CESS, Hyderabad,,," Hyderabad, ",17.385044,78.486671
+IHDBS,Jacques Gignoux, Centre National de la Recherche Scientifique, Paris,France,jacques.gignoux@upmc.fr," Paris, France",48.856614,2.3522219
+IHDBS,Mahesh Sankaran, National Centre for Biological Sciences, Bangalore,India,mahesh@ncbs.res.in," Bangalore, India",12.9715987,77.5945627
+IHDBS,Giselda Durigan, Instituto Florestal do Estado de São Paulo, Assis,Brazil,giselda.durigan@gmail.com," Assis, Brazil",-22.6604341,-50.4187813
+IHDBS,Florian Jeltsch,University of Potsdam,Potsdam,Germany,jeltsch@uni-potsdam.de,"Potsdam, Germany",52.3905689,13.0644729
+IHDBS,William Bond, University of Cape Town, Rondebosch,,," Rondebosch, ",-33.9657883,18.48102
+IHDBS,Sébastien Treyer, IDDRI Sciences Po, Paris,South Africa,william.bond@uct.ac.za," Paris, South Africa",48.8620378,2.3077786
+IHDBS,Garry David Cook, CSIRO, Winnellie,Australia,garry.cook@csiro.au," Winnellie, Australia",-12.428889,130.869722
+Seaview,Luc Doyen, CNRS, Pessac,France,luc.doyen@u-bordeaux4.fr," Pessac, France",44.80583,-0.630386
+Seaview,Olivier Thebaud, IFREMER, Plouzane,France,olivier.thebaud@ifremer.fr," Plouzane, France",48.381438,-4.620404
+Seaview,Richard Lorne Little,CSIRO,Hobart,Australia,rich.little@csiro.au,"Hobart, Australia",-42.8821377,147.3271949
+Seaview,Martin Quaas, University of Kiel, Kiel,Germany,quaas@economics.uni-kiel.de," Kiel, Germany",54.3232927,10.1227652
+Seaview,Astrid Jarre, University of Cape Town, Cape Town,South Africa,astrid.jarre@uct.ac.za," Cape Town, South Africa",-33.9248685,18.4240553
+Seaview,Leo Dutra, CSIRO, Dutton Park,Australia,leo.dutra@csiro.au," Dutton Park, Australia",-27.494167,153.025833
+Seaview,Debora Martins de Freitas, Technological Institute of Aeronautics, Santos,Brazil,freitas.debora@gmail.com," Santos, Brazil",-23.9561304,-46.3264089
+Seaview,Fabian Blanchard, IFREMER, Cayenne ,French Guyana,fabian.blanchard@ifremer.fr," Cayenne , French Guyana",4.92242,-52.3134531
+Seaview,Claire Armstrong, University of Tromsø, Tromsø ,Norway,claire.armstrong@uit.no," Tromsø , Norway",69.6492047,18.9553238
+Seaview,Felipe Gusmao, Federal University of Sao Paulo, Santos,Brazil,gusmao.lfm@gmail.com," Santos, Brazil",-23.9561304,-46.3264089
+TSUNAGARI,Masahiro Nakaoka, Hokkaido University, Akkeshi,Japan,massanakaoka@gmail.com," Akkeshi, Japan",43.0518705,144.8473601
+TSUNAGARI,Satoshi Ishikawa, Research Institute for Humanity and Nature, Kyoto,Japan,oounagi@chikyu.ac.jp," Kyoto, Japan",35.0116363,135.7680294
+TSUNAGARI,Mitsutaku Makino, Fisheries Research Agency Japan, Yokohama ,Japan,mmakino@affrc.go.jp," Yokohama , Japan",35.4437078,139.6380256
+TSUNAGARI,Hiroya Yamano, National Institute for Environmental Studies, Tsukuba,Japan,hyamano@nies.go.jp," Tsukuba, Japan",36.0834857,140.0766423
+TSUNAGARI,Xiubo Yu, Chinese Academy of Sciences, Beijing,China,yuxb@igsnrr.ac.cn," Beijing, China",39.9041999,116.4073963
+TSUNAGARI,Hou Xiyong, Chinese Academy of Sciences, Yantai,China,xyhou@yic.ac.cn," Yantai, China",37.464539,121.447852
+TSUNAGARI,Jon Brodie, James Cook University, Townsville,Australia,jon.brodie@jcu.edu.au," Townsville, Australia",-19.2589635,146.8169483
+TSUNAGARI,Keiichiro Kanemoto, Kyushu University, Fukuoka,Japan,keiichiro.kanemoto@gmail.com," Fukuoka, Japan",33.5903547,130.4017155
+TSUNAGARI,Manfred Lenzen, University of Sydney, Sydney,Australia,m.lenzen@physics.usyd.edu.au," Sydney, Australia",-33.8688197,151.2092955
+TSUNAGARI,Edgar Hertwich, NTNU, Trondheim,Norway,edgar.hertwich@ntnu.no," Trondheim, Norway",63.4305149,10.3950528
