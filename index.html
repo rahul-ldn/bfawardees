@@ -47,10 +47,13 @@
   <!-- Load Papa Parse from CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.2.0/papaparse.min.js"></script>
 
+  <!-- Makimarkers -->
+<script src="Leaflet.MakiMarkers.js"></script>
+
 
 </head>
 <body>
-1.5<br><br>
+2.0<br><br>
 
 
 <!-- Create the map -->
@@ -70,10 +73,11 @@ L.tileLayer('https://api.mapbox.com/styles/v1/rslux/cj21r8qyp00002qmppuj0ivt6/ti
 
 //CSV Import
 //Drawing Markers
-
+L.MakiMarkers.accessToken = "pk.eyJ1IjoicnNsdXgiLCJhIjoiY2oyMXFzd25jMDAwdDJ3cWFvYmk3NzYzaCJ9.b0CboYbGfrZTa1xApDdE5Q";
 
 //**Second** CSV parse—can this be refactored?
 //Drawing Mountains
+var mtnicon = L.MakiMarkers.icon({icon: "circle-15", color: "#a3276c", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Mountains.csv", {
     download: true,
  //   header: true,
@@ -110,7 +114,7 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude]).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: mtnicon}).addTo(mymap)
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
@@ -124,7 +128,7 @@ if (ib != 0) {
   });
     }
   });
-
+var arcicon = L.MakiMarkers.icon({icon: "circle-15", color: "#4bb5c5", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Arctic.csv", {
     download: true,
  //   header: true,
@@ -161,7 +165,7 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude]).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: arcicon}).addTo(mymap)
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
@@ -176,6 +180,7 @@ if (ib != 0) {
     }
   });
 
+var bioicon = L.MakiMarkers.icon({icon: "circle-15", color: "#2c6733", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Biodiversity.csv", {
     download: true,
  //   header: true,
@@ -212,7 +217,7 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude]).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: bioicon}).addTo(mymap)
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
@@ -227,6 +232,7 @@ if (ib != 0) {
     }
   });
 
+var climicon = L.MakiMarkers.icon({icon: "circle-15", color: "#cbbd2c", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Climate.csv", {
     download: true,
  //   header: true,
@@ -263,7 +269,7 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude]).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: climicon}).addTo(mymap)
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
@@ -278,6 +284,7 @@ if (ib != 0) {
     }
   });
 
+var foodicon = L.MakiMarkers.icon({icon: "circle-15", color: "#ff7800", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Foodsecurity.csv", {
     download: true,
  //   header: true,
@@ -314,7 +321,7 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude]).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: foodicon}).addTo(mymap)
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
@@ -328,6 +335,8 @@ if (ib != 0) {
   });
     }
   });
+
+var coasticon = L.MakiMarkers.icon({icon: "circle-15", color: "#00ffA1", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Coastal.csv", {
     download: true,
  //   header: true,
@@ -364,7 +373,7 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude]).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: coasticon}).addTo(mymap)
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
@@ -378,6 +387,8 @@ if (ib != 0) {
   });
     }
   });
+
+var frshicon = L.MakiMarkers.icon({icon: "circle-15", color: "#098290", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Freshwater.csv", {
     download: true,
  //   header: true,
@@ -414,7 +425,7 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude]).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: frshicon}).addTo(mymap)
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
