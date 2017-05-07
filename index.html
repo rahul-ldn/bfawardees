@@ -71,32 +71,60 @@ L.tileLayer('https://api.mapbox.com/styles/v1/rslux/cj21r8qyp00002qmppuj0ivt6/ti
 //CSV Import
 //Drawing Markers
 
-var marker = L.marker( [-35.2809368,  149.1300092 ]).addTo(mymap).bindPopup('<strong>The Commonwealth Scientific and Industrial Research Organisation</strong> CSIRO<br>Principal: <BR>Canberra, Australia');
-var marker = L.marker( [48.2081743,   16.3738189  ]).addTo(mymap).bindPopup('<strong>Federal Ministry of Science, Research and Economy</strong> BMWFW<br>Principal: Irene Gabriel<BR>Vienna, Austria');
-var marker = L.marker( [48.0688772,   16.3554987  ]).addTo(mymap).bindPopup('<strong>International Institute for Applied Systems Analysis</strong> IIASA<br>Principal: Pavel Kabat<BR>Laxenburg, Austria');
-var marker = L.marker( [50.8503463,   4.3517211   ]).addTo(mymap).bindPopup('<strong>European Commission</strong> EC<br>Principal: Kurt Vandenberghe<BR>Brussels, Belgium');
-var marker = L.marker( [-23.5505199,  -46.6333094 ]).addTo(mymap).bindPopup('<strong>São Paulo Research Foundation</strong> FAPESP<br>Principal: Gilberto Camara<BR>São Paulo, Brazil');
-var marker = L.marker( [39.904211,    116.407395  ]).addTo(mymap).bindPopup('<strong>National Natural Science Foundation of China</strong> NSFC<br>Principal: Yucheng Chai<BR>Beijing, China');
-var marker = L.marker( [25.033333,    121.633333  ]).addTo(mymap).bindPopup('<strong>Ministry of Science and Technology</strong> MOST<br>Principal: Yue-Gau Chen<BR>Daan, Chinese Taipei');
-var marker = L.marker( [48.856614,    2.3522219   ]).addTo(mymap).bindPopup('<strong>The French National Research Agency</strong> ANR<br>Principal: Patrcick Monfray<BR>Paris, France');
-var marker = L.marker( [48.856614,    2.3522219   ]).addTo(mymap).bindPopup('<strong>French Research Alliance for the Environment </strong> AllEnvi<br>Principal: Francois Houllier<BR>Paris, France');
-var marker = L.marker( [48.856614,    2.3522219   ]).addTo(mymap).bindPopup('<strong>International Council for Science </strong> ICSU<br>Principal: Heide Hackmann<BR>Paris, France');
-var marker = L.marker( [48.856614,    2.3522219   ]).addTo(mymap).bindPopup('<strong>International Social Science Council</strong> ISSC<br>Principal: Mathieu Dennis<BR>Paris, France');
-var marker = L.marker( [50.73743,     7.0982068   ]).addTo(mymap).bindPopup('<strong>German Research Foundation</strong> DFG<br>Principal: Harald Leisch<BR>Bonn, Germany');
-var marker = L.marker( [50.73743,     7.0982068   ]).addTo(mymap).bindPopup('<strong>Federal Ministry of Education and Research</strong> BMBF<br>Principal: Wilfried Kraus<BR>Bonn, Germany');
-var marker = L.marker( [28.6139391,   77.2090212  ]).addTo(mymap).bindPopup('<strong>Ministry of Earth Sciences</strong> MOES<br>Principal: Nair Rajeevan<BR>New Delhi, India');
-var marker = L.marker( [41.9027835,   12.4963655  ]).addTo(mymap).bindPopup('<strong>National Research Council</strong> CNR-DTA<br>Principal: Enrico Brugnoli<BR>Rome, Italy');
-var marker = L.marker( [35.6894875,   139.6917064 ]).addTo(mymap).bindPopup('<strong>Japan Science and Technology Agency</strong> JST<br>Principal: Yoshiko Shirokizawa<BR>Tokyo, Japan');
-var marker = L.marker( [35.6894875,   139.6917064 ]).addTo(mymap).bindPopup('<strong>Ministry of Education, Culture, Sports, Science and Techology</strong> MEXT<br>Principal: Satoshi Tanaka<BR>Tokyo, Japan');
-var marker = L.marker( [59.9138688,   10.7522454  ]).addTo(mymap).bindPopup('<strong>Research Council of Norway</strong> RCN<br>Principal: Kirsten Broch Mathisen<BR>Oslo, Norway');
-var marker = L.marker( [25.2854473,   51.5310398  ]).addTo(mymap).bindPopup('<strong>Qatar National Research Fund</strong> QNRF<br>Principal: Philippe Freyssinet<BR>Doha, Qatar');
-var marker = L.marker( [-25.7478676,  28.2292712  ]).addTo(mymap).bindPopup('<strong>National Research Foundation </strong> NRF<br>Principal: Dorsamy Gansen Pillay<BR>Pretoria, South Africa');
-var marker = L.marker( [59.3293235,   18.0685808  ]).addTo(mymap).bindPopup('<strong>Swedish Secretariat for Environmental Earth System Sciences</strong> SSEESS<br>Principal: Magnus Tannerfeldt<BR>Stockholm, Sweden');
-var marker = L.marker( [59.3293235,   18.0685808  ]).addTo(mymap).bindPopup('<strong>The Swedish Research Council Formas</strong><br>Principal: <BR>Stockholm, Sweden');
-var marker = L.marker( [52.0704978,   4.3006999   ]).addTo(mymap).bindPopup('<strong>The Netherlands Organisation for Scientific Research</strong> NWO<br>Principal: Dick van der Kroef<BR>The Hague, The Netherlands');
-var marker = L.marker( [51.5557739,   -1.7797176  ]).addTo(mymap).bindPopup('<strong>Natural Environment Research Council</strong> NERC<br>Principal: Duncan Wingham<BR>Swindon, United Kingdom');
-var marker = L.marker( [38.8799697,   -77.1067698 ]).addTo(mymap).bindPopup('<strong>National Science Foundation</strong> NSF<br>Principal: <BR>Arlington, VA, United States');
-var marker = L.marker( [38.9071923,   -77.0368707 ]).addTo(mymap).bindPopup('<strong>United States Global Change Research Program</strong> USGRP<br>Principal: Michael Kuperberg<BR>Washington, DC, USA');
+
+//**Second** CSV parse—can this be refactored?
+//Drawing Markerts
+Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Mountains.csv", {
+    download: true,
+ //   header: true,
+    complete: function(results) {
+      console.log(results);
+
+$.each(results.data, function(ib, el) {
+if (ib != 0) {
+  //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
+  var cra = ""
+  var name = "";
+  var affiliation = "";
+  var city = "";
+  var country = "";
+  var email = "";
+  var combinedlocation = "";
+  var latitude = "";
+  var longitude = "";
+    $.each(el, function(j, cell) {
+        if (j == 0) {cra = cell};
+        if (j == 1) {name = cell};
+        if (j == 2) {
+            affiliation = cell;
+//            if (affiliation == "Member") {
+  //              markericon = "";
+    //          } else {
+      //          markericon = ""; //for partners
+        //      }
+            };
+
+        if (j == 5) {email = cell};
+        if (j == 6) {combinedlocation = cell};
+        if (j == 7) {latitude = cell};
+        if (j == 8) {longitude = cell};
+  });
+
+    var marker = L.marker([latitude, longitude]).addTo(mymap)
+              .bindPopup('<strong>'+name+'<br>'
+                    +affiliation+'<br>'
+                    +'CRA: '+cra+'<br>'
+                    +
+                    +'Location: '+combinedlocation+'<br>'
+                    +"Email: "+email);
+
+      
+   
+    }
+  });
+    }
+  });
+
 
 </script>
 
