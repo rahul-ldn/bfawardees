@@ -50,7 +50,7 @@
 
 </head>
 <body>
-1.3<br><br>
+1.5<br><br>
 
 
 <!-- Create the map -->
@@ -73,7 +73,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/rslux/cj21r8qyp00002qmppuj0ivt6/ti
 
 
 //**Second** CSV parse—can this be refactored?
-//Drawing Markerts
+//Drawing Mountains
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Mountains.csv", {
     download: true,
  //   header: true,
@@ -125,6 +125,309 @@ if (ib != 0) {
     }
   });
 
+Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Arctic.csv", {
+    download: true,
+ //   header: true,
+    complete: function(results) {
+      console.log(results);
+
+$.each(results.data, function(ib, el) {
+if (ib != 0) {
+  //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
+  var cra = ""
+  var name = "";
+  var affiliation = "";
+  var city = "";
+  var country = "";
+  var email = "";
+  var combinedlocation = "";
+  var latitude = "";
+  var longitude = "";
+    $.each(el, function(j, cell) {
+        if (j == 0) {cra = cell};
+        if (j == 1) {name = cell};
+        if (j == 2) {
+            affiliation = cell;
+//            if (affiliation == "Member") {
+  //              markericon = "";
+    //          } else {
+      //          markericon = ""; //for partners
+        //      }
+            };
+
+        if (j == 5) {email = cell};
+        if (j == 6) {combinedlocation = cell};
+        if (j == 7) {latitude = cell};
+        if (j == 8) {longitude = cell};
+  });
+
+    var marker = L.marker([latitude, longitude]).addTo(mymap)
+              .bindPopup('<strong>'+name+'<br>'
+                    +affiliation+'<br>'
+                    +'CRA: '+cra+'<br>'
+                    +
+                    +'Location: '+combinedlocation+'<br>'
+                    +"Email: "+email);
+
+      
+   
+    }
+  });
+    }
+  });
+
+Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Biodiversity.csv", {
+    download: true,
+ //   header: true,
+    complete: function(results) {
+      console.log(results);
+
+$.each(results.data, function(ib, el) {
+if (ib != 0) {
+  //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
+  var cra = ""
+  var name = "";
+  var affiliation = "";
+  var city = "";
+  var country = "";
+  var email = "";
+  var combinedlocation = "";
+  var latitude = "";
+  var longitude = "";
+    $.each(el, function(j, cell) {
+        if (j == 0) {cra = cell};
+        if (j == 1) {name = cell};
+        if (j == 2) {
+            affiliation = cell;
+//            if (affiliation == "Member") {
+  //              markericon = "";
+    //          } else {
+      //          markericon = ""; //for partners
+        //      }
+            };
+
+        if (j == 5) {email = cell};
+        if (j == 6) {combinedlocation = cell};
+        if (j == 7) {latitude = cell};
+        if (j == 8) {longitude = cell};
+  });
+
+    var marker = L.marker([latitude, longitude]).addTo(mymap)
+              .bindPopup('<strong>'+name+'<br>'
+                    +affiliation+'<br>'
+                    +'CRA: '+cra+'<br>'
+                    +
+                    +'Location: '+combinedlocation+'<br>'
+                    +"Email: "+email);
+
+      
+   
+    }
+  });
+    }
+  });
+
+Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Climate.csv", {
+    download: true,
+ //   header: true,
+    complete: function(results) {
+      console.log(results);
+
+$.each(results.data, function(ib, el) {
+if (ib != 0) {
+  //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
+  var cra = ""
+  var name = "";
+  var affiliation = "";
+  var city = "";
+  var country = "";
+  var email = "";
+  var combinedlocation = "";
+  var latitude = "";
+  var longitude = "";
+    $.each(el, function(j, cell) {
+        if (j == 0) {cra = cell};
+        if (j == 1) {name = cell};
+        if (j == 2) {
+            affiliation = cell;
+//            if (affiliation == "Member") {
+  //              markericon = "";
+    //          } else {
+      //          markericon = ""; //for partners
+        //      }
+            };
+
+        if (j == 5) {email = cell};
+        if (j == 6) {combinedlocation = cell};
+        if (j == 7) {latitude = cell};
+        if (j == 8) {longitude = cell};
+  });
+
+    var marker = L.marker([latitude, longitude]).addTo(mymap)
+              .bindPopup('<strong>'+name+'<br>'
+                    +affiliation+'<br>'
+                    +'CRA: '+cra+'<br>'
+                    +
+                    +'Location: '+combinedlocation+'<br>'
+                    +"Email: "+email);
+
+      
+   
+    }
+  });
+    }
+  });
+
+Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Foodsecurity.csv", {
+    download: true,
+ //   header: true,
+    complete: function(results) {
+      console.log(results);
+
+$.each(results.data, function(ib, el) {
+if (ib != 0) {
+  //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
+  var cra = ""
+  var name = "";
+  var affiliation = "";
+  var city = "";
+  var country = "";
+  var email = "";
+  var combinedlocation = "";
+  var latitude = "";
+  var longitude = "";
+    $.each(el, function(j, cell) {
+        if (j == 0) {cra = cell};
+        if (j == 1) {name = cell};
+        if (j == 2) {
+            affiliation = cell;
+//            if (affiliation == "Member") {
+  //              markericon = "";
+    //          } else {
+      //          markericon = ""; //for partners
+        //      }
+            };
+
+        if (j == 5) {email = cell};
+        if (j == 6) {combinedlocation = cell};
+        if (j == 7) {latitude = cell};
+        if (j == 8) {longitude = cell};
+  });
+
+    var marker = L.marker([latitude, longitude]).addTo(mymap)
+              .bindPopup('<strong>'+name+'<br>'
+                    +affiliation+'<br>'
+                    +'CRA: '+cra+'<br>'
+                    +
+                    +'Location: '+combinedlocation+'<br>'
+                    +"Email: "+email);
+
+      
+   
+    }
+  });
+    }
+  });
+Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Coastal.csv", {
+    download: true,
+ //   header: true,
+    complete: function(results) {
+      console.log(results);
+
+$.each(results.data, function(ib, el) {
+if (ib != 0) {
+  //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
+  var cra = ""
+  var name = "";
+  var affiliation = "";
+  var city = "";
+  var country = "";
+  var email = "";
+  var combinedlocation = "";
+  var latitude = "";
+  var longitude = "";
+    $.each(el, function(j, cell) {
+        if (j == 0) {cra = cell};
+        if (j == 1) {name = cell};
+        if (j == 2) {
+            affiliation = cell;
+//            if (affiliation == "Member") {
+  //              markericon = "";
+    //          } else {
+      //          markericon = ""; //for partners
+        //      }
+            };
+
+        if (j == 5) {email = cell};
+        if (j == 6) {combinedlocation = cell};
+        if (j == 7) {latitude = cell};
+        if (j == 8) {longitude = cell};
+  });
+
+    var marker = L.marker([latitude, longitude]).addTo(mymap)
+              .bindPopup('<strong>'+name+'<br>'
+                    +affiliation+'<br>'
+                    +'CRA: '+cra+'<br>'
+                    +
+                    +'Location: '+combinedlocation+'<br>'
+                    +"Email: "+email);
+
+      
+   
+    }
+  });
+    }
+  });
+Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Freshwater.csv", {
+    download: true,
+ //   header: true,
+    complete: function(results) {
+      console.log(results);
+
+$.each(results.data, function(ib, el) {
+if (ib != 0) {
+  //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
+  var cra = ""
+  var name = "";
+  var affiliation = "";
+  var city = "";
+  var country = "";
+  var email = "";
+  var combinedlocation = "";
+  var latitude = "";
+  var longitude = "";
+    $.each(el, function(j, cell) {
+        if (j == 0) {cra = cell};
+        if (j == 1) {name = cell};
+        if (j == 2) {
+            affiliation = cell;
+//            if (affiliation == "Member") {
+  //              markericon = "";
+    //          } else {
+      //          markericon = ""; //for partners
+        //      }
+            };
+
+        if (j == 5) {email = cell};
+        if (j == 6) {combinedlocation = cell};
+        if (j == 7) {latitude = cell};
+        if (j == 8) {longitude = cell};
+  });
+
+    var marker = L.marker([latitude, longitude]).addTo(mymap)
+              .bindPopup('<strong>'+name+'<br>'
+                    +affiliation+'<br>'
+                    +'CRA: '+cra+'<br>'
+                    +
+                    +'Location: '+combinedlocation+'<br>'
+                    +"Email: "+email);
+
+      
+   
+    }
+  });
+    }
+  });
 
 </script>
 
