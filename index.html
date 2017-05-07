@@ -53,7 +53,7 @@
 
 </head>
 <body>
-2.1<br><br>
+2.2<br><br>
 
 
 <!-- Create the map -->
@@ -77,7 +77,7 @@ L.MakiMarkers.accessToken = "pk.eyJ1IjoicnNsdXgiLCJhIjoiY2oyMXFzd25jMDAwdDJ3cWFv
 
 //**Second** CSV parse—can this be refactored?
 //Drawing Mountains
-var mtnicon = L.MakiMarkers.icon({icon: "circle-15", color: "#a3276c", size: "m"});
+var mtnicon = L.MakiMarkers.icon({icon: "circle", color: "#a3276c", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Mountains.csv", {
     download: true,
  //   header: true,
@@ -128,7 +128,7 @@ if (ib != 0) {
   });
     }
   });
-var arcicon = L.MakiMarkers.icon({icon: "circle-15", color: "#4bb5c5", size: "m"});
+var arcicon = L.MakiMarkers.icon({icon: "circle", color: "#4bb5c5", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Arctic.csv", {
     download: true,
  //   header: true,
@@ -180,7 +180,7 @@ if (ib != 0) {
     }
   });
 
-var bioicon = L.MakiMarkers.icon({icon: "circle-15", color: "#2c6733", size: "m"});
+var bioicon = L.MakiMarkers.icon({icon: "circle", color: "#2c6733", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Biodiversity.csv", {
     download: true,
  //   header: true,
@@ -232,7 +232,7 @@ if (ib != 0) {
     }
   });
 
-var climicon = L.MakiMarkers.icon({icon: "circle-15", color: "#cbbd2c", size: "m"});
+var climicon = L.MakiMarkers.icon({icon: "circle", color: "#cbbd2c", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Climate.csv", {
     download: true,
  //   header: true,
@@ -284,7 +284,7 @@ if (ib != 0) {
     }
   });
 
-var foodicon = L.MakiMarkers.icon({icon: "circle-15", color: "#ff7800", size: "m"});
+var foodicon = L.MakiMarkers.icon({icon: "circle", color: "#ff7800", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Foodsecurity.csv", {
     download: true,
  //   header: true,
@@ -336,7 +336,7 @@ if (ib != 0) {
     }
   });
 
-var coasticon = L.MakiMarkers.icon({icon: "circle-15", color: "#00ffA1", size: "m"});
+var coasticon = L.MakiMarkers.icon({icon: "circle", color: "#00ffA1", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Coastal.csv", {
     download: true,
  //   header: true,
@@ -388,7 +388,7 @@ if (ib != 0) {
     }
   });
 
-var frshicon = L.MakiMarkers.icon({icon: "circle-15", color: "#098290", size: "m"});
+var frshicon = L.MakiMarkers.icon({icon: "circle", color: "#098290", size: "m"});
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Freshwater.csv", {
     download: true,
  //   header: true,
