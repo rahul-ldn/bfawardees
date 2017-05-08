@@ -53,7 +53,7 @@
 
 </head>
 <body>
-3.0<br><br>
+3.1<br><br>
 <ul>
     <li><a id="mountainbutton" href="#">Mountains</a></li>
     <li><a id="arcticbutton" href="#">Arctic</a></li>
@@ -67,71 +67,71 @@
 <script>
 $("#mountainbutton").click(function(event) {
     event.preventDefault();
-    if(map.hasLayer(mountainlayer)) {
+    if(mymap.hasLayer(mountainlayer)) {
         $(this).removeClass('selected');
-        map.removeLayer(mountainlayer);
+        mymap.removeLayer(mountainlayer);
     } else {
-        map.addLayer(mountainlayer);        
+        mymap.addLayer(mountainlayer);        
         $(this).addClass('selected');
    }
 });
 $("#arcticbutton").click(function(event) {
     event.preventDefault();
-    if(map.hasLayer(arcticlayer)) {
+    if(mymap.hasLayer(arcticlayer)) {
         $(this).removeClass('selected');
-        map.removeLayer(arcticlayer);
+        mymap.removeLayer(arcticlayer);
     } else {
-        map.addLayer(arcticlayer);        
+        mymap.addLayer(arcticlayer);        
         $(this).addClass('selected');
    }
 });
 $("#biodiversitybutton").click(function(event) {
     event.preventDefault();
-    if(map.hasLayer(biodiversitylayer)) {
+    if(mymap.hasLayer(biodiversitylayer)) {
         $(this).removeClass('selected');
-        map.removeLayer(biodiversitylayer);
+        mymap.removeLayer(biodiversitylayer);
     } else {
-        map.addLayer(biodiversitylayer);        
+        mymap.addLayer(biodiversitylayer);        
         $(this).addClass('selected');
    }
 });
 $("#climatebutton").click(function(event) {
     event.preventDefault();
-    if(map.hasLayer(climatelayer)) {
+    if(mymap.hasLayer(climatelayer)) {
         $(this).removeClass('selected');
-        map.removeLayer(climatelayer);
+        mymap.removeLayer(climatelayer);
     } else {
-        map.addLayer(climatelayer);        
+        mymap.addLayer(climatelayer);        
         $(this).addClass('selected');
    }
 });
 $("#foodsecuritybutton").click(function(event) {
     event.preventDefault();
-    if(map.hasLayer(foodsecuritylayer)) {
+    if(mymap.hasLayer(foodsecuritylayer)) {
         $(this).removeClass('selected');
-        map.removeLayer(foodsecuritylayer);
+        mymap.removeLayer(foodsecuritylayer);
     } else {
-        map.addLayer(foodsecuritylayer);        
+        mymap.addLayer(foodsecuritylayer);        
         $(this).addClass('selected');
    }
 });
 $("#coastalbutton").click(function(event) {
     event.preventDefault();
-    if(map.hasLayer(coastallayer)) {
+    if(mymap.hasLayer(coastallayer)) {
         $(this).removeClass('selected');
-        map.removeLayer(coastallayer);
+        mymap.removeLayer(coastallayer);
     } else {
-        map.addLayer(coastallayer);        
+        mymap.addLayer(coastallayer);        
         $(this).addClass('selected');
    }
 });
 $("#freshwaterbutton").click(function(event) {
     event.preventDefault();
-    if(map.hasLayer(freshwaterlayer)) {
+    if(mymap.hasLayer(freshwaterlayer)) {
         $(this).removeClass('selected');
-        map.removeLayer(freshwaterlayer);
+        mymap.removeLayer(freshwaterlayer);
     } else {
-        map.addLayer(freshwaterlayer);        
+        mymap.addLayer(freshwaterlayer);        
         $(this).addClass('selected');
    }
 });
