@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
-	<title>Belmont Forum Awardee Map</title>
+  
+  <title>Belmont Forum Awardee Map</title>
 
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
 <!-- Task list
 1) Draw in data, construct data object
-	CSV draw
-	Interpret
+  CSV draw
+  Interpret
 2) render bars, map
-	Pull logos
-	add to nav bar
-	render
+  Pull logos
+  add to nav bar
+  render
 3) render markers
 
 4) respond to events
@@ -35,7 +35,7 @@
 #mapid { height: 180px; }
 -->
 
-	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"
    integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg=="
    crossorigin=""></script>
 
@@ -53,7 +53,7 @@
 
 </head>
 <body>
-2.7<br><br>
+2.8<br><br>
 
 
 <!-- Create the map -->
@@ -65,10 +65,10 @@ var mymap = L.map('mapid').setView([30.505, 0.09], 2);
 
 
 L.tileLayer('https://api.mapbox.com/styles/v1/rslux/cj21r8qyp00002qmppuj0ivt6/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicnNsdXgiLCJhIjoiY2oyMXFzd25jMDAwdDJ3cWFvYmk3NzYzaCJ9.b0CboYbGfrZTa1xApDdE5Q', {
-		maxZoom: 18,
-		attribution: 'ESRI ArcGIS',
-		id: 'mapbox.streets'
-	}).addTo(mymap);
+    maxZoom: 18,
+    attribution: 'ESRI ArcGIS',
+    id: 'mapbox.streets'
+  }).addTo(mymap);
 //Notwithstanding ACAO/CORS, this executed
 
 //CSV Import
@@ -79,7 +79,7 @@ L.MakiMarkers.accessToken = "pk.eyJ1IjoicnNsdXgiLCJhIjoiY2oyMXFzd25jMDAwdDJ3cWFv
 //Drawing Mountains
 var mtnicon = L.MakiMarkers.icon({icon: "circle", color: "#a3276c", size: "m"});
 var mountainlayer = L.layerGroup().addTo(mymap);
-	
+  
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Mountains.csv", {
     download: true,
  //   header: true,
@@ -123,7 +123,7 @@ if (ib != 0) {
                     +
                     +'Location: '+combinedlocation+'<br>'
                     +"Email: "+email);
-	mountainlayer.addLayer(marker);
+  mountainlayer.addLayer(marker);
 
       
    
@@ -131,7 +131,11 @@ if (ib != 0) {
   });
     }
   });
+
+
 var arcicon = L.MakiMarkers.icon({icon: "circle", color: "#4bb5c5", size: "m"});
+var arcticlayer = L.layerGroup().addTo(mymap);
+
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Arctic.csv", {
     download: true,
  //   header: true,
@@ -168,14 +172,14 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude], {icon: arcicon}).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: arcicon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
                     +
                     +'Location: '+combinedlocation+'<br>'
                     +"Email: "+email);
-
+arcticlayer.addLayer(marker);
       
    
     }
@@ -183,7 +187,12 @@ if (ib != 0) {
     }
   });
 
+
+
 var bioicon = L.MakiMarkers.icon({icon: "circle", color: "#2c6733", size: "m"});
+var biodiversitylayer = L.layerGroup().addTo(mymap);
+
+
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Biodiversity.csv", {
     download: true,
  //   header: true,
@@ -220,14 +229,14 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude], {icon: bioicon}).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: bioicon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
                     +
                     +'Location: '+combinedlocation+'<br>'
                     +"Email: "+email);
-
+biodiversitylayer.addLayer(marker);
       
    
     }
@@ -235,7 +244,11 @@ if (ib != 0) {
     }
   });
 
+
+
 var climicon = L.MakiMarkers.icon({icon: "circle", color: "#cbbd2c", size: "m"});
+var climatelayer = L.layerGroup().addTo(mymap);
+
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Climate.csv", {
     download: true,
  //   header: true,
@@ -272,14 +285,14 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude], {icon: climicon}).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: climicon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
                     +
                     +'Location: '+combinedlocation+'<br>'
                     +"Email: "+email);
-
+climatelayer.addLayer(marker);
       
    
     }
@@ -288,6 +301,8 @@ if (ib != 0) {
   });
 
 var foodicon = L.MakiMarkers.icon({icon: "circle", color: "#ff7800", size: "m"});
+var foodsecuritylayer = L.layerGroup().addTo(mymap);
+
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Food-Security.csv", {
     download: true,
  //   header: true,
@@ -324,14 +339,14 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude], {icon: foodicon}).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: foodicon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
                     +
                     +'Location: '+combinedlocation+'<br>'
                     +"Email: "+email);
-
+foodsecuritylayer.addLayer(marker);
       
    
     }
@@ -340,6 +355,8 @@ if (ib != 0) {
   });
 
 var coasticon = L.MakiMarkers.icon({icon: "circle", color: "#00ffA1", size: "m"});
+var coastallayer = L.layerGroup().addTo(mymap);
+
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Coastal.csv", {
     download: true,
  //   header: true,
@@ -376,14 +393,14 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude], {icon: coasticon}).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: coasticon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
                     +
                     +'Location: '+combinedlocation+'<br>'
                     +"Email: "+email);
-
+coastallayer.addLayer(marker);
       
    
     }
@@ -392,6 +409,8 @@ if (ib != 0) {
   });
 
 var frshicon = L.MakiMarkers.icon({icon: "circle", color: "#098290", size: "m"});
+var freshwaterlayer = L.layerGroup().addTo(mymap);
+
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Freshwater.csv", {
     download: true,
  //   header: true,
@@ -428,14 +447,14 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude], {icon: frshicon}).addTo(mymap)
+    var marker = L.marker([latitude, longitude], {icon: frshicon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'CRA: '+cra+'<br>'
                     +
                     +'Location: '+combinedlocation+'<br>'
                     +"Email: "+email);
-
+freshwaterlayer.addLayer(marker);
       
    
     }
