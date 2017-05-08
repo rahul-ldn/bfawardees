@@ -53,7 +53,89 @@
 
 </head>
 <body>
-2.8<br><br>
+3.0<br><br>
+<ul>
+    <li><a id="mountainbutton" href="#">Mountains</a></li>
+    <li><a id="arcticbutton" href="#">Arctic</a></li>
+    <li><a id="biodiversitybutton" href="#">Biodiversity</a></li>
+    <li><a id="climatebutton" href="#">Climate</a></li>
+    <li><a id="foodsecuritybutton" href="#">Food Security</a></li>
+    <li><a id="coastalbutton" href="#">Coastal</a></li>
+    <li><a id="freshwaterbutton" href="#">Freshwater</a></li>
+</ul>
+<BR><BR>
+<script>
+$("#mountainbutton").click(function(event) {
+    event.preventDefault();
+    if(map.hasLayer(mountainlayer)) {
+        $(this).removeClass('selected');
+        map.removeLayer(mountainlayer);
+    } else {
+        map.addLayer(mountainlayer);        
+        $(this).addClass('selected');
+   }
+});
+$("#arcticbutton").click(function(event) {
+    event.preventDefault();
+    if(map.hasLayer(arcticlayer)) {
+        $(this).removeClass('selected');
+        map.removeLayer(arcticlayer);
+    } else {
+        map.addLayer(arcticlayer);        
+        $(this).addClass('selected');
+   }
+});
+$("#biodiversitybutton").click(function(event) {
+    event.preventDefault();
+    if(map.hasLayer(biodiversitylayer)) {
+        $(this).removeClass('selected');
+        map.removeLayer(biodiversitylayer);
+    } else {
+        map.addLayer(biodiversitylayer);        
+        $(this).addClass('selected');
+   }
+});
+$("#climatebutton").click(function(event) {
+    event.preventDefault();
+    if(map.hasLayer(climatelayer)) {
+        $(this).removeClass('selected');
+        map.removeLayer(climatelayer);
+    } else {
+        map.addLayer(climatelayer);        
+        $(this).addClass('selected');
+   }
+});
+$("#foodsecuritybutton").click(function(event) {
+    event.preventDefault();
+    if(map.hasLayer(foodsecuritylayer)) {
+        $(this).removeClass('selected');
+        map.removeLayer(foodsecuritylayer);
+    } else {
+        map.addLayer(foodsecuritylayer);        
+        $(this).addClass('selected');
+   }
+});
+$("#coastalbutton").click(function(event) {
+    event.preventDefault();
+    if(map.hasLayer(coastallayer)) {
+        $(this).removeClass('selected');
+        map.removeLayer(coastallayer);
+    } else {
+        map.addLayer(coastallayer);        
+        $(this).addClass('selected');
+   }
+});
+$("#freshwaterbutton").click(function(event) {
+    event.preventDefault();
+    if(map.hasLayer(freshwaterlayer)) {
+        $(this).removeClass('selected');
+        map.removeLayer(freshwaterlayer);
+    } else {
+        map.addLayer(freshwaterlayer);        
+        $(this).addClass('selected');
+   }
+});
+</script>
 
 
 <!-- Create the map -->
