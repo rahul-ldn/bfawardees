@@ -74,7 +74,49 @@ section.mountainbuttonclass button {
   border: none;
 }
 
-section.mountainbuttonclass button:hover,
+section.arcticbuttonclass button {
+  color: #fff;
+  background-color: #4bb5c5;
+  text-shadow: -1px 1px #419DAB;
+  border: none;
+}
+
+section.biodiversitybuttonclass button {
+  color: #fff;
+  background-color: #2c6733;
+  text-shadow: -1px 1px #214D26;
+  border: none;
+}
+
+section.climatebuttonclass button {
+  color: #fff;
+  background-color: #cbbd2c;
+  text-shadow: -1px 1px #B3A627;
+  border: none;
+}
+
+section.foodsecuritybuttonclass button {
+  color: #fff;
+  background-color: #FF7800;
+  text-shadow: -1px 1px #E66C00;
+  border: none;
+}
+
+section.coastalbuttonclass button {
+  color: #fff;
+  background-color: #00ffA1;
+  text-shadow: -1px 1px #00E691;
+  border: none;
+}
+
+section.freshwaterbuttonclass button {
+  color: #fff;
+  background-color: #098290;
+  text-shadow: -1px 1px #076A75;
+  border: none;
+}
+
+/*section.mountainbuttonclass button:hover,
 section.mountainbuttonclass button.hover {
   background-color: #a3276c;
   text-shadow: -1px 1px #8A215B;
@@ -84,22 +126,32 @@ section.mountainbuttonclass button:active,
 section.mountainbuttonclass button.active {
   background-color: #a3276c;
   text-shadow: -1px 1px #8A215B;
-}
+}*/
 </style>
 </head>
 <body>
-3.4<br><br>
+3.5<br><br>
 <section class="mountainbuttonclass" >
   <button id="mountainbutton" href="#">Mountains</button>
-  <button id="mountainbutton" href="#" class="hover">Mountains</button>
-  <button id="mountainbutton" href="#" class="active">Mountains</button>
 </section>
-<button id="arcticbutton" href="#">Arctic</button>
-<button id="biodiversitybutton" href="#">Biodiversity</button>
-<button id="climatebutton" href="#">Climate</button>
-<button id="foodsecuritybutton" href="#">Food Security</button>
-<button id="coastalbutton" href="#">Coastal</button>
-<button id="freshwaterbutton" href="#">Freshwater</button>
+<section class="arcticbuttonclass" >
+  <button id="arcticbutton" href="#">Arctic</button>
+</section>
+<section class="biodiversitybuttonclass" >
+  <button id="biodiversitybutton" href="#">Biodiversity</button>
+</section>
+<section class="climatebuttonclass" >
+  <button id="climatebutton" href="#">Climate</button>
+</section>
+<section class="foodsecuritybuttonclass" >
+  <button id="foodsecuritybutton" href="#">Food Security</button>
+</section>
+<section class="coastalbuttonclass" >
+  <button id="coastalbutton" href="#">Coastal</button>
+</section>
+<section class="freshwaterbuttonclass" >
+  <button id="freshwaterbutton" href="#">Freshwater</button>
+</section>
 <BR><BR>
 <script>
 $("#mountainbutton").click(function(event) {
