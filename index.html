@@ -646,12 +646,18 @@ if (ib != 0) {
         if (j == 8) {longitude = cell};
   });
 
-    var marker = L.marker([latitude, longitude], {icon: frshicon})
-              .bindPopup('<strong>'+name+'<br>'
+    var marker = L.marker([latitude, longitude], {icon: frshicon});
+  var popup = new L.Popup();
+oms.addListener('click', function(marker) {
+  popup.setContent('<strong>'+name+'<br>'
                     +affiliation+'<br>'
                     +'Project: '+cra+'<br>'
                     +'Location: '+combinedlocation+'<br>'
                     +"Email: "+email);
+  popup.setLatLng(latitude,longitude);
+  map.openPopup(popup);
+});
+              .bindPopup();
 freshwaterlayer.addLayer(marker);
    oms.addMarker(marker);   
    
@@ -660,6 +666,10 @@ freshwaterlayer.addLayer(marker);
     }
   });
 
+  oms.addListener('spiderfy', function(markers) {
+  map.closePopup();
+});
+  
 </script>
 
 
