@@ -138,9 +138,13 @@ section.freshwaterbuttonclass button {
   float: left;
   width: 13%;
 }
+  
+section.freshwaterbuttonclass button.selected {
+border: 13px;
+}
 
 button.selected {
-border: 3px;
+border: 13px;
 }
 
 /*section.mountainbuttonclass button:hover,
@@ -159,7 +163,6 @@ section.mountainbuttonclass button.active {
 <body>
   CLUSTERING 2<BR>
   BUTTONS 1<BR>
-  LETTERING 3<BR>
   <BR><BR>
 <br>
 <section class="mountainbuttonclass" >
@@ -183,7 +186,7 @@ section.mountainbuttonclass button.active {
 <section class="freshwaterbuttonclass" >
   <button id="freshwaterbutton" href="#">Freshwater<BR>Security<BR>&nbsp</button>
 </section>
-<BR>
+<BR><BR>
 <script>
 $("#mountainbutton").click(function(event) {
     event.preventDefault();
