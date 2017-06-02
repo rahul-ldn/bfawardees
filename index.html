@@ -264,6 +264,7 @@ $("#freshwaterbutton").click(function(event) {
 <script>
 
 var mymap = L.map('mapid').setView([30.505, 0.09], 2);
+mymap.dragging.disable()
 mymap.scrollWheelZoom.disable();
 var oms = new OverlappingMarkerSpiderfier(mymap);
 
