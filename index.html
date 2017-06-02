@@ -264,8 +264,12 @@ $("#freshwaterbutton").click(function(event) {
 <script>
 
 var mymap = L.map('mapid').setView([30.505, 0.09], 2);
-mymap.dragging.disable()
 mymap.scrollWheelZoom.disable();
+mymap.dragging.disable();
+mymap.zoomControl.remove();mymap.touchZoom.disable();
+mymap.doubleClickZoom.disable();
+mymap.boxZoom.disable();
+mymap.keyboard.disable(); 
 var oms = new OverlappingMarkerSpiderfier(mymap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/rslux/cj21r8qyp00002qmppuj0ivt6/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicnNsdXgiLCJhIjoiY2oyMXFzd25jMDAwdDJ3cWFvYmk3NzYzaCJ9.b0CboYbGfrZTa1xApDdE5Q', {
