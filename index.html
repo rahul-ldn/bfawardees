@@ -266,7 +266,7 @@ L.MakiMarkers.accessToken = "pk.eyJ1IjoicnNsdXgiLCJhIjoiY2oyMXFzd25jMDAwdDJ3cWFv
 var mtnicon = L.MakiMarkers.icon({icon: "circle", color: "#a3276c", size: "m"});
 var mountainlayer = L.layerGroup().addTo(mymap);
   
-Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Mountains.csv", {
+Papa.parse("https://bfmembers.weareinquiry.com/bfawardees/Mountains.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
@@ -315,7 +315,7 @@ if (ib != 0) {
   });
 var arcicon = L.MakiMarkers.icon({icon: "circle", color: "#4bb5c5", size: "m"});
 var arcticlayer = L.layerGroup().addTo(mymap);
-Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Arctic.csv", {
+Papa.parse("https://bfmembers.weareinquiry.com/bfawardees/Arctic.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
@@ -363,7 +363,7 @@ arcticlayer.addLayer(marker);
   });
 var bioicon = L.MakiMarkers.icon({icon: "circle", color: "#2c6733", size: "m"});
 var biodiversitylayer = L.layerGroup().addTo(mymap);
-Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Biodiversity.csv", {
+Papa.parse("https://bfmembers.weareinquiry.com/bfawardees/Biodiversity.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
@@ -411,7 +411,7 @@ biodiversitylayer.addLayer(marker);
   });
 var climicon = L.MakiMarkers.icon({icon: "circle", color: "#cbbd2c", size: "m"});
 var climatelayer = L.layerGroup().addTo(mymap);
-Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Climate.csv", {
+Papa.parse("https://bfmembers.weareinquiry.com/bfawardees/Climate.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
@@ -459,7 +459,7 @@ climatelayer.addLayer(marker);
   });
 var foodicon = L.MakiMarkers.icon({icon: "circle", color: "#ff7800", size: "m"});
 var foodsecuritylayer = L.layerGroup().addTo(mymap);
-Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Food-Security.csv", {
+Papa.parse("https://bfmembers.weareinquiry.com/bfawardees/Food-Security.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
@@ -507,7 +507,7 @@ foodsecuritylayer.addLayer(marker);
   });
 var coasticon = L.MakiMarkers.icon({icon: "circle", color: "#00ffA1", size: "m"});
 var coastallayer = L.layerGroup().addTo(mymap);
-Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Coastal.csv", {
+Papa.parse("https://bfmembers.weareinquiry.com/bfawardees/Coastal.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
@@ -555,7 +555,7 @@ coastallayer.addLayer(marker);
   });
 var frshicon = L.MakiMarkers.icon({icon: "circle", color: "#098290", size: "m"});
 var freshwaterlayer = L.layerGroup().addTo(mymap);
-Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Freshwater.csv", {
+Papa.parse("https://bfmembers.weareinquiry.com/bfawardees/Freshwater.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
