@@ -707,6 +707,21 @@ var geojson = freshwaterlayer.toGeoJSON();
 // Log GeoJSON collection to console
 console.log(fwc);  
 
+  
+  var collection = {
+    "type": "FeatureCollection",
+    "features": []
+};
+    // Check if layer is a marker
+    if (oms instanceof L.Marker) {
+        // Create GeoJSON object from marker
+        var geojson = layer.toGeoJSON();
+        // Push GeoJSON object to collection
+        collection.features.push(geojson);
+    };
+// Log GeoJSON collection to console
+console.log(collection);
+  
 </script>
 
 
