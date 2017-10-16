@@ -601,6 +601,28 @@ freshwaterlayer.addLayer(marker);
   });
     }
   });
+  
+  
+  
+  // Create an empty GeoJSON collection
+var collection = {
+    "type": "FeatureCollection",
+    "features": []
+};
+
+// Iterate the layers of the map
+mymap.eachLayer(function (layer) {
+    // Check if layer is a marker
+    if (layer instanceof L.Marker) {
+        // Create GeoJSON object from marker
+        var geojson = layer.toGeoJSON();
+        // Push GeoJSON object to collection
+        collection.features.push(geojson);
+    }
+});
+
+// Log GeoJSON collection to console
+console.log(collection);
 </script>
 
 
