@@ -130,7 +130,7 @@ section.freshwaterbuttonclass button {
 </style>
 </head>
 <body>
-  Revision<br><br>
+  Revision 2<br><br>
 <br>
 <section class="mountainbuttonclass" >
   <button id="mountainbutton" href="#">Mountains as<BR>Sentinels of<BR>Change</button>
@@ -701,6 +701,7 @@ var fwc = {
 };
 
 var geojson = freshwaterlayer.toGeoJSON();
+  console.log(geojson);
         // Push GeoJSON object to collection
         fwc.features.push(geojson);
 
