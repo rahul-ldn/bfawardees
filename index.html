@@ -18,9 +18,7 @@
   add to nav bar
   render
 3) render markers
-
 4) respond to events
-
 -->
 
 
@@ -48,7 +46,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.2.0/papaparse.min.js"></script>
 
   <!-- Makimarkers -->
-<script type="text/javascript" src="https://rahulsindc.github.io/bfawardees/Leaflet.MakiMarkers.js"></script>
+<script type="text/javascript" src="http://bfmembers.weareinquiry.com/bfawardees/Leaflet.MakiMarkers.js"></script>
   
   <!-- declustering -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js"></script>
@@ -66,16 +64,12 @@ button {
   box-shadow: none;
   border-radius: 0;
 }
-
 button:focus {
   outline: none
 }
-
 button:active {
   font-weight: bold;
-
 }
-
 section.mountainbuttonclass button {
   color: #fff;
   background-color: #a3276c;
@@ -83,9 +77,7 @@ section.mountainbuttonclass button {
   border: none;
   float: left;
   width: 120px;
-
 }
-
 section.arcticbuttonclass button {
   color: #fff;
   background-color: #4bb5c5;
@@ -93,9 +85,7 @@ section.arcticbuttonclass button {
   border: none;
   float: left;
   width: 120px;
-
 }
-
 section.biodiversitybuttonclass button {
   color: #fff;
   background-color: #2c6733;
@@ -103,9 +93,7 @@ section.biodiversitybuttonclass button {
   border: none;
   float: left;
   width: 120px;
-
 }
-
 section.climatebuttonclass button {
   color: #fff;
   background-color: #cbbd2c;
@@ -113,9 +101,7 @@ section.climatebuttonclass button {
   border: none;
   float: left;
   width: 120px;
-
 }
-
 section.foodsecuritybuttonclass button {
   color: #fff;
   background-color: #FF7800;
@@ -123,9 +109,7 @@ section.foodsecuritybuttonclass button {
   border: none;
   float: left;
   width: 120px;
-
 }
-
 section.coastalbuttonclass button {
   color: #000;
   background-color: #00ffA1;
@@ -133,9 +117,7 @@ section.coastalbuttonclass button {
   border: none;
   float: left;
   width: 120px;
-
 }
-
 section.freshwaterbuttonclass button {
   color: #fff;
   background-color: #098290;
@@ -148,12 +130,120 @@ section.freshwaterbuttonclass button {
 </style>
 </head>
 <body>
+<br>
+<section class="mountainbuttonclass" >
+  <button id="mountainbutton" href="#">Mountains as<BR>Sentinels of<BR>Change</button>
+</section>
+<section class="arcticbuttonclass" >
+  <button id="arcticbutton" href="#">Arctic Observing<BR>and Research for<BR>Sustainability</button>
+</section>
+<section class="biodiversitybuttonclass" >
+  <button id="biodiversitybutton" href="#">Scenarios of<BR>Biodiversity and<BR>Ecosystem Services</button>
+</section>
+<section class="climatebuttonclass" >
+  <button id="climatebutton" href="#">Climate Predictability<BR>&amp; Inter-Regional<BR>Linkages</button>
+</section>
+<section class="foodsecuritybuttonclass" >
+  <button id="foodsecuritybutton" href="#">Food Security and<BR>Land Use Change<BR>&nbsp</button>
+</section>
+<section class="coastalbuttonclass" >
+  <button id="coastalbutton" href="#">Coastal<BR>Vulnerability<BR>&nbsp</button>
+</section>
+<section class="freshwaterbuttonclass" >
+  <button id="freshwaterbutton" href="#">Freshwater<BR>Security<BR>&nbsp</button>
+</section>
+<BR><BR>
+<script>
+$("#mountainbutton").click(function(event) {
+    event.preventDefault();
+    if(mymap.hasLayer(mountainlayer)) {
+        $(this).removeClass('selected');
+        $('#mountainbutton').css('background-color', '#8A215B'); ///toggles background colour on select/deselect
+        mymap.removeLayer(mountainlayer);
+    } else {
+        mymap.addLayer(mountainlayer);        
+        $('#mountainbutton').css('background-color', '#a3276c'); ///toggles background colour on select/deselect
+        $(this).addClass('selected');
+   }
+});
+$("#arcticbutton").click(function(event) {
+    event.preventDefault();
+    if(mymap.hasLayer(arcticlayer)) {
+        $(this).removeClass('selected');
+        $('#arcticbutton').css('background-color', '#378692'); ///toggles background colour on select/deselect
+        mymap.removeLayer(arcticlayer);
+    } else {
+        mymap.addLayer(arcticlayer);        
+        $('#arcticbutton').css('background-color', '#4bb5c5'); ///toggles background colour on select/deselect
+        $(this).addClass('selected');
+   }
+});
+$("#biodiversitybutton").click(function(event) {
+    event.preventDefault();
+    if(mymap.hasLayer(biodiversitylayer)) {
+        $(this).removeClass('selected');
+        $('#biodiversitybutton').css('background-color', '#163319'); ///toggles background colour on select/deselect
+        mymap.removeLayer(biodiversitylayer);
+    } else {
+        mymap.addLayer(biodiversitylayer);        
+        $('#biodiversitybutton').css('background-color', '#2c6733'); ///toggles background colour on select/deselect
+        $(this).addClass('selected');
+   }
+});
+$("#climatebutton").click(function(event) {
+    event.preventDefault();
+    if(mymap.hasLayer(climatelayer)) {
+        $(this).removeClass('selected');
+        $('#climatebutton').css('background-color', '#9A8E22'); ///toggles background colour on select/deselect
+        mymap.removeLayer(climatelayer);
+    } else {
+        mymap.addLayer(climatelayer);        
+        $('#climatebutton').css('background-color', '#cbbd2c'); ///toggles background colour on select/deselect
+        $(this).addClass('selected');
+   }
+});
+$("#foodsecuritybutton").click(function(event) {
+    event.preventDefault();
+    if(mymap.hasLayer(foodsecuritylayer)) {
+        $(this).removeClass('selected');
+        $('#foodsecuritybutton').css('background-color', '#CD6000'); ///toggles background colour on select/deselect
+        mymap.removeLayer(foodsecuritylayer);
+    } else {
+        mymap.addLayer(foodsecuritylayer);        
+        $('#foodsecuritybutton').css('background-color', '#FF7800'); ///toggles background colour on select/deselect
+        $(this).addClass('selected');
+   }
+});
+$("#coastalbutton").click(function(event) {
+    event.preventDefault();
+    if(mymap.hasLayer(coastallayer)) {
+        $(this).removeClass('selected');
+        $('#coastalbutton').css('background-color', '#00CD82'); ///font-weight: normal;
+        mymap.removeLayer(coastallayer);
+    } else {
+        mymap.addLayer(coastallayer);        
+        $(this).addClass('selected');
+        $('#coastalbutton').css('background-color', '#00ffA1'); ///font-weight: bold;
+   }
+});
+$("#freshwaterbutton").click(function(event) {
+    event.preventDefault();
+    if(mymap.hasLayer(freshwaterlayer)) {
+        $('this').removeClass('selected');
+        $('#freshwaterbutton').css('background-color', '#06535C'); ///font-weight: normal;
+        mymap.removeLayer(freshwaterlayer);
+    } else {
+        mymap.addLayer(freshwaterlayer);        
+        $('#freshwaterbutton').css('background-color', '#098290'); ///font-weight: normal;
+        $(this).addClass('selected');
+   }
+});
+</script>
 
 <BR><BR>
 <!-- Create the map -->
 <div id="mapid" style="width: 1000px; height: 500px; z-index: 90; text-align: center;"></div>
 <script>
-
 var mymap = L.map('mapid').setView([30.505, 0.09], 2);
 mymap.scrollWheelZoom.disable();
 mymap.dragging.disable();
@@ -162,18 +252,15 @@ mymap.doubleClickZoom.disable();
 mymap.boxZoom.disable();
 mymap.keyboard.disable(); 
 var oms = new OverlappingMarkerSpiderfier(mymap);
-
 L.tileLayer('https://api.mapbox.com/styles/v1/rslux/cj21r8qyp00002qmppuj0ivt6/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicnNsdXgiLCJhIjoiY2oyMXFzd25jMDAwdDJ3cWFvYmk3NzYzaCJ9.b0CboYbGfrZTa1xApDdE5Q', {
     maxZoom: 18,
     attribution: 'ESRI ArcGIS',
     id: 'mapbox.streets'
   }).addTo(mymap);
 //Notwithstanding ACAO/CORS, this executed
-
 //CSV Import
 //Drawing Markers
 L.MakiMarkers.accessToken = "pk.eyJ1IjoicnNsdXgiLCJhIjoiY2oyMXFzd25jMDAwdDJ3cWFvYmk3NzYzaCJ9.b0CboYbGfrZTa1xApDdE5Q";
-
 //**Second** CSV parse—can this be refactored?
 //Drawing Mountains
 var mtnicon = L.MakiMarkers.icon({icon: "circle", color: "#a3276c", size: "m"});
@@ -184,7 +271,6 @@ Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Mountains.csv", {
  //   header: true,
     complete: function(results) {
       console.log(results);
-
 $.each(results.data, function(ib, el) {
 if (ib != 0) {
   //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
@@ -208,13 +294,11 @@ if (ib != 0) {
       //          markericon = ""; //for partners
         //      }
             };
-
         if (j == 5) {email = cell};
         if (j == 6) {combinedlocation = cell};
         if (j == 7) {latitude = cell};
         if (j == 8) {longitude = cell};
   });
-
     var marker = L.marker([latitude, longitude], {icon: mtnicon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
@@ -223,24 +307,19 @@ if (ib != 0) {
                     +"Email: "+email);
   mountainlayer.addLayer(marker);
   oms.addMarker(marker);
-
       
    
     }
   });
     }
   });
-
-
 var arcicon = L.MakiMarkers.icon({icon: "circle", color: "#4bb5c5", size: "m"});
 var arcticlayer = L.layerGroup().addTo(mymap);
-
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Arctic.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
       console.log(results);
-
 $.each(results.data, function(ib, el) {
 if (ib != 0) {
   //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
@@ -264,13 +343,11 @@ if (ib != 0) {
       //          markericon = ""; //for partners
         //      }
             };
-
         if (j == 5) {email = cell};
         if (j == 6) {combinedlocation = cell};
         if (j == 7) {latitude = cell};
         if (j == 8) {longitude = cell};
   });
-
     var marker = L.marker([latitude, longitude], {icon: arcicon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
@@ -284,19 +361,13 @@ arcticlayer.addLayer(marker);
   });
     }
   });
-
-
-
 var bioicon = L.MakiMarkers.icon({icon: "circle", color: "#2c6733", size: "m"});
 var biodiversitylayer = L.layerGroup().addTo(mymap);
-
-
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Biodiversity.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
       console.log(results);
-
 $.each(results.data, function(ib, el) {
 if (ib != 0) {
   //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
@@ -320,13 +391,11 @@ if (ib != 0) {
       //          markericon = ""; //for partners
         //      }
             };
-
         if (j == 5) {email = cell};
         if (j == 6) {combinedlocation = cell};
         if (j == 7) {latitude = cell};
         if (j == 8) {longitude = cell};
   });
-
     var marker = L.marker([latitude, longitude], {icon: bioicon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
@@ -340,18 +409,13 @@ biodiversitylayer.addLayer(marker);
   });
     }
   });
-
-
-
 var climicon = L.MakiMarkers.icon({icon: "circle", color: "#cbbd2c", size: "m"});
 var climatelayer = L.layerGroup().addTo(mymap);
-
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Climate.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
       console.log(results);
-
 $.each(results.data, function(ib, el) {
 if (ib != 0) {
   //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
@@ -375,13 +439,11 @@ if (ib != 0) {
       //          markericon = ""; //for partners
         //      }
             };
-
         if (j == 5) {email = cell};
         if (j == 6) {combinedlocation = cell};
         if (j == 7) {latitude = cell};
         if (j == 8) {longitude = cell};
   });
-
     var marker = L.marker([latitude, longitude], {icon: climicon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
@@ -395,16 +457,13 @@ climatelayer.addLayer(marker);
   });
     }
   });
-
 var foodicon = L.MakiMarkers.icon({icon: "circle", color: "#ff7800", size: "m"});
 var foodsecuritylayer = L.layerGroup().addTo(mymap);
-
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Food-Security.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
       console.log(results);
-
 $.each(results.data, function(ib, el) {
 if (ib != 0) {
   //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
@@ -428,13 +487,11 @@ if (ib != 0) {
       //          markericon = ""; //for partners
         //      }
             };
-
         if (j == 5) {email = cell};
         if (j == 6) {combinedlocation = cell};
         if (j == 7) {latitude = cell};
         if (j == 8) {longitude = cell};
   });
-
     var marker = L.marker([latitude, longitude], {icon: foodicon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
@@ -448,16 +505,13 @@ foodsecuritylayer.addLayer(marker);
   });
     }
   });
-
 var coasticon = L.MakiMarkers.icon({icon: "circle", color: "#00ffA1", size: "m"});
 var coastallayer = L.layerGroup().addTo(mymap);
-
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Coastal.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
       console.log(results);
-
 $.each(results.data, function(ib, el) {
 if (ib != 0) {
   //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
@@ -481,13 +535,11 @@ if (ib != 0) {
       //          markericon = ""; //for partners
         //      }
             };
-
         if (j == 5) {email = cell};
         if (j == 6) {combinedlocation = cell};
         if (j == 7) {latitude = cell};
         if (j == 8) {longitude = cell};
   });
-
     var marker = L.marker([latitude, longitude], {icon: coasticon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
@@ -501,16 +553,13 @@ coastallayer.addLayer(marker);
   });
     }
   });
-
 var frshicon = L.MakiMarkers.icon({icon: "circle", color: "#098290", size: "m"});
 var freshwaterlayer = L.layerGroup().addTo(mymap);
-
 Papa.parse("http://bfmembers.weareinquiry.com/bfawardees/Freshwater.csv", {
     download: true,
  //   header: true,
     complete: function(results) {
       console.log(results);
-
 $.each(results.data, function(ib, el) {
 if (ib != 0) {
   //Name  Acronym Affiliation City  Country Website Principal Principal's Representative  URL Logo Link Location  Latitude  Longitude
@@ -534,13 +583,11 @@ if (ib != 0) {
       //          markericon = ""; //for partners
         //      }
             };
-
         if (j == 5) {email = cell};
         if (j == 6) {combinedlocation = cell};
         if (j == 7) {latitude = cell};
         if (j == 8) {longitude = cell};
   });
-
     var marker = L.marker([latitude, longitude], {icon: frshicon})
               .bindPopup('<strong>'+name+'<br>'
                     +affiliation+'<br>'
@@ -554,7 +601,6 @@ freshwaterlayer.addLayer(marker);
   });
     }
   });
-
 </script>
 
 
