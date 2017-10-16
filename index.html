@@ -313,6 +313,21 @@ if (ib != 0) {
   });
     }
   });
+  
+    // Create an empty GeoJSON collection
+var mtc = {
+    "type": "FeatureCollection",
+    "features": []
+};
+
+var geojson = mountainlayer.toGeoJSON();
+        // Push GeoJSON object to collection
+        mtc.features.push(geojson);
+
+
+// Log GeoJSON collection to console
+console.log(mtc);
+  
 var arcicon = L.MakiMarkers.icon({icon: "circle", color: "#4bb5c5", size: "m"});
 var arcticlayer = L.layerGroup().addTo(mymap);
 Papa.parse("https://rahulsindc.github.io/bfawardees/Arctic.csv", {
@@ -361,6 +376,21 @@ arcticlayer.addLayer(marker);
   });
     }
   });
+  
+    // Create an empty GeoJSON collection
+var atc = {
+    "type": "FeatureCollection",
+    "features": []
+};
+
+var geojson = arcticlayer.toGeoJSON();
+        // Push GeoJSON object to collection
+        atc.features.push(geojson);
+
+
+// Log GeoJSON collection to console
+console.log(atc);
+  
 var bioicon = L.MakiMarkers.icon({icon: "circle", color: "#2c6733", size: "m"});
 var biodiversitylayer = L.layerGroup().addTo(mymap);
 Papa.parse("https://rahulsindc.github.io/bfawardees/Biodiversity.csv", {
@@ -409,6 +439,21 @@ biodiversitylayer.addLayer(marker);
   });
     }
   });
+  
+    // Create an empty GeoJSON collection
+var bdc = {
+    "type": "FeatureCollection",
+    "features": []
+};
+
+var geojson = biodiversitylayer.toGeoJSON();
+        // Push GeoJSON object to collection
+        bdc.features.push(geojson);
+
+
+// Log GeoJSON collection to console
+console.log(bdc);
+  
 var climicon = L.MakiMarkers.icon({icon: "circle", color: "#cbbd2c", size: "m"});
 var climatelayer = L.layerGroup().addTo(mymap);
 Papa.parse("https://rahulsindc.github.io/bfawardees/Climate.csv", {
@@ -457,6 +502,21 @@ climatelayer.addLayer(marker);
   });
     }
   });
+  
+    // Create an empty GeoJSON collection
+var cll = {
+    "type": "FeatureCollection",
+    "features": []
+};
+
+var geojson = climatelayer.toGeoJSON();
+        // Push GeoJSON object to collection
+        cll.features.push(geojson);
+
+
+// Log GeoJSON collection to console
+console.log(cll);
+  
 var foodicon = L.MakiMarkers.icon({icon: "circle", color: "#ff7800", size: "m"});
 var foodsecuritylayer = L.layerGroup().addTo(mymap);
 Papa.parse("https://rahulsindc.github.io/bfawardees/Food-Security.csv", {
@@ -505,6 +565,21 @@ foodsecuritylayer.addLayer(marker);
   });
     }
   });
+  
+    // Create an empty GeoJSON collection
+var fsc = {
+    "type": "FeatureCollection",
+    "features": []
+};
+
+var geojson = foodsecuritylayer.toGeoJSON();
+        // Push GeoJSON object to collection
+        fsc.features.push(geojson);
+
+
+// Log GeoJSON collection to console
+console.log(fsc);
+  
 var coasticon = L.MakiMarkers.icon({icon: "circle", color: "#00ffA1", size: "m"});
 var coastallayer = L.layerGroup().addTo(mymap);
 Papa.parse("https://rahulsindc.github.io/bfawardees/Coastal.csv", {
@@ -553,6 +628,21 @@ coastallayer.addLayer(marker);
   });
     }
   });
+  
+   // Create an empty GeoJSON collection
+var cstc = {
+    "type": "FeatureCollection",
+    "features": []
+};
+
+var geojson = coastallayer.toGeoJSON();
+        // Push GeoJSON object to collection
+        cstc.features.push(geojson);
+
+
+// Log GeoJSON collection to console
+console.log(cstc); 
+  
 var frshicon = L.MakiMarkers.icon({icon: "circle", color: "#098290", size: "m"});
 var freshwaterlayer = L.layerGroup().addTo(mymap);
 Papa.parse("https://rahulsindc.github.io/bfawardees/Freshwater.csv", {
@@ -603,26 +693,20 @@ freshwaterlayer.addLayer(marker);
   });
   
   
-  
   // Create an empty GeoJSON collection
-var collection = {
+var fwc = {
     "type": "FeatureCollection",
     "features": []
 };
 
-// Iterate the layers of the map
-mymap.eachLayer(function (layer) {
-    // Check if layer is a marker
-    if (layer instanceof L.Marker) {
-        // Create GeoJSON object from marker
-        var geojson = layer.toGeoJSON();
+var geojson = freshwaterlayer.toGeoJSON();
         // Push GeoJSON object to collection
-        collection.features.push(geojson);
-    }
-});
+        fwc.features.push(geojson);
+
 
 // Log GeoJSON collection to console
-console.log(collection);
+console.log(fwc);  
+
 </script>
 
 
