@@ -46,16 +46,20 @@
 <!-- Create the map -->
 <div id="mapid" style="width: 2000px; height: 1000px; z-index: 90; text-align: center;"></div>
 <script>
-var mymap = L.map('mapid').setView([38.6, -90.1], 4);
+var mymap = L.map('mapid').setView([38.6, -90.1], 5);
 mymap.scrollWheelZoom.disable();
 mymap.dragging.disable();
 mymap.zoomControl.remove();mymap.touchZoom.disable();
 mymap.doubleClickZoom.disable();
 mymap.boxZoom.disable();
 mymap.keyboard.disable(); 
-var oms = new OverlappingMarkerSpiderfier(mymap);
+var oms = new OverlappingMarkerSpiderfier(mymap,
+  {
+
+  });
 L.tileLayer(
-  'https://api.mapbox.com/styles/v1/rs-hei/cjqcke0g0egyg2rp7vpr2w1ju/tiles/256/{z}/{x}/{y}@2x?fresh=true&access_token=pk.eyJ1IjoicnMtaGVpIiwiYSI6ImNqcWNqeDE1dzAzZ3MzeG8zdDh1ZTlqcTEifQ.QY_pV0Mz6GsgG7ZknZGNvA'
+//  'https://api.mapbox.com/styles/v1/rs-hei/cjqcke0g0egyg2rp7vpr2w1ju/tiles/256/{z}/{x}/{y}@2x?fresh=true&access_token=pk.eyJ1IjoicnMtaGVpIiwiYSI6ImNqcWNqeDE1dzAzZ3MzeG8zdDh1ZTlqcTEifQ.QY_pV0Mz6GsgG7ZknZGNvA'
+  'https://api.mapbox.com/styles/v1/rs-hei/cjrmbuukddgky2so1qi5k0sa6/tiles/256/{z}/{x}/{y}@2x?fresh=true&access_token=pk.eyJ1IjoicnMtaGVpIiwiYSI6ImNqcWNqeDE1dzAzZ3MzeG8zdDh1ZTlqcTEifQ.QY_pV0Mz6GsgG7ZknZGNvA'
   , {
 
 //mapbox://styles/rs-hei/cjqcke0g0egyg2rp7vpr2w1ju
