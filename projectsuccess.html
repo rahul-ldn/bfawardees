@@ -9,19 +9,6 @@
 
 
 
-<!-- Task list
-1) Draw in data, construct data object
-  CSV draw
-  Interpret
-2) render bars, map
-  Pull logos
-  add to nav bar
-  render
-3) render markers
-4) respond to events
--->
-
-
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
    integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
    crossorigin=""/>
@@ -51,94 +38,15 @@
   <!-- declustering -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js"></script>
 
-<style type="text/css">
-button {
-  display: inline-block;
-  margin: 0 5px 0 0;
-  padding: 5px 5px;
-  font-size: 10px;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: normal;
-  line-height: 1.8;
-  appearance: none;
-  box-shadow: none;
-  border-radius: 0;
-}
-button:focus {
-  outline: none
-}
-button:active {
-  font-weight: bold;
-}
-section.mountainbuttonclass button {
-  color: #fff;
-  background-color: #a3276c;
-  text-shadow: -1px 1px #8A215B;
-  border: none;
-  float: left;
-  width: 120px;
-}
-section.arcticbuttonclass button {
-  color: #fff;
-  background-color: #4bb5c5;
-  text-shadow: -1px 1px #419DAB;
-  border: none;
-  float: left;
-  width: 120px;
-}
-section.biodiversitybuttonclass button {
-  color: #fff;
-  background-color: #2c6733;
-  text-shadow: -1px 1px #214D26;
-  border: none;
-  float: left;
-  width: 120px;
-}
-section.climatebuttonclass button {
-  color: #fff;
-  background-color: #cbbd2c;
-  text-shadow: -1px 1px #B3A627;
-  border: none;
-  float: left;
-  width: 120px;
-}
-section.foodsecuritybuttonclass button {
-  color: #fff;
-  background-color: #FF7800;
-  text-shadow: -1px 1px #E66C00;
-  border: none;
-  float: left;
-  width: 120px;
-}
-section.coastalbuttonclass button {
-  color: #000;
-  background-color: #00ffA1;
-  text-shadow: -1px 1px #00E691;
-  border: none;
-  float: left;
-  width: 120px;
-}
-section.freshwaterbuttonclass button {
-  color: #fff;
-  background-color: #098290;
-  text-shadow: -1px 1px #076A75;
-  border: none;
-  float: left;
-  width: 120px;
-}
-  
-</style>
+
 </head>
 <body>
-  Revision 2<br><br>
-<br>
-
 
 <BR><BR>
 <!-- Create the map -->
-<div id="mapid" style="width: 1000px; height: 500px; z-index: 90; text-align: center;"></div>
+<div id="mapid" style="width: 2000px; height: 1000px; z-index: 90; text-align: center;"></div>
 <script>
-var mymap = L.map('mapid').setView([38.6, -90.1], 5);
+var mymap = L.map('mapid').setView([38.6, -90.1], 4);
 mymap.scrollWheelZoom.disable();
 mymap.dragging.disable();
 mymap.zoomControl.remove();mymap.touchZoom.disable();
@@ -146,19 +54,27 @@ mymap.doubleClickZoom.disable();
 mymap.boxZoom.disable();
 mymap.keyboard.disable(); 
 var oms = new OverlappingMarkerSpiderfier(mymap);
-L.tileLayer('https://api.mapbox.com/styles/v1/rslux/cj21r8qyp00002qmppuj0ivt6/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicnNsdXgiLCJhIjoiY2oyMXFzd25jMDAwdDJ3cWFvYmk3NzYzaCJ9.b0CboYbGfrZTa1xApDdE5Q', {
+L.tileLayer(
+  'https://api.mapbox.com/styles/v1/rs-hei/cjqcke0g0egyg2rp7vpr2w1ju/tiles/256/{z}/{x}/{y}@2x?fresh=true&access_token=pk.eyJ1IjoicnMtaGVpIiwiYSI6ImNqcWNqeDE1dzAzZ3MzeG8zdDh1ZTlqcTEifQ.QY_pV0Mz6GsgG7ZknZGNvA'
+  , {
+
+//mapbox://styles/rs-hei/cjqcke0g0egyg2rp7vpr2w1ju
     maxZoom: 18,
-    attribution: 'ESRI ArcGIS',
-    id: 'mapbox.streets'
+    attribution: 'HEI Geospatial',
+    id: 'mapbox.streets',
+//    accessToken: 'sk.eyJ1IjoicnMtaGVpIiwiYSI6ImNqcm05dno2ajAwd3Y0M3BldWV1bWcyZnEifQ.xoEvUFF0Q46dIkraBE0Q1g'
   }).addTo(mymap);
-//Notwithstanding ACAO/CORS, this executed
+
 //CSV Import
 //Drawing Markers
 L.MakiMarkers.accessToken = "pk.eyJ1IjoicnNsdXgiLCJhIjoiY2oyMXFzd25jMDAwdDJ3cWFvYmk3NzYzaCJ9.b0CboYbGfrZTa1xApDdE5Q";
 //**Second** CSV parse—can this be refactored?
 //Drawing Mountains
-var mtnicon = L.MakiMarkers.icon({icon: "circle", color: "#a3276c", size: "m"});
-var mountainlayer = L.layerGroup().addTo(mymap);
+var gaicon = L.MakiMarkers.icon({icon: "circle", color: "#a3276c", size: "m"});
+var trellisicon = L.MakiMarkers.icon({icon: "circle", color: "#3b6e93", size: "m"});
+var ascendiumicon = L.MakiMarkers.icon({icon: "circle", color: "#c1604b", size: "m"});
+var ecmcicon = L.MakiMarkers.icon({icon: "circle", color: "#87b953", size: "m"});
+var institutionslayer = L.layerGroup().addTo(mymap);
   
 Papa.parse("https://rahulsindc.github.io/bfawardees/institutions.csv", {
     download: true,
@@ -184,12 +100,16 @@ if (ib != 0) {
         if (j == 5) {city = cell};
         if (j == 6) {state = cell};
   });
-    var marker = L.marker([latitude, longitude], {icon: mtnicon})
+    if (ga == "Trellis") {gaicon=trellisicon};
+    if (ga == "ECMC") {gaicon=ecmcicon};
+    if (ga == "Great Lakes/Ascendium") {gaicon=ascendiumicon};
+
+    var marker = L.marker([latitude, longitude], {icon: gaicon})
               .bindPopup('<strong>'+name+'<br>Served by '
                     +ga+'<br>'
                     +'IPEDS: '+ipeds+'<br>'
                     +'Location: '+city+', '+state+'<br>');
-  mountainlayer.addLayer(marker);
+  institutionslayer.addLayer(marker);
   oms.addMarker(marker);
       
    
@@ -199,18 +119,18 @@ if (ib != 0) {
   });
   
     // Create an empty GeoJSON collection
-var mtc = {
+var instc = {
     "type": "FeatureCollection",
     "features": []
 };
 
-var geojson = mountainlayer.toGeoJSON();
+var geojson = institutionslayer.toGeoJSON();
         // Push GeoJSON object to collection
-        mtc.features.push(geojson);
+        instc.features.push(geojson);
 
 
 // Log GeoJSON collection to console
-console.log(mtc);
+console.log(instc);
   
   
 </script>
